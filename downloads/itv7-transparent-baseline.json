@@ -2,7 +2,7 @@
   "competition": "ITV7",
   "date": "2026-09-12",
   "first_off_utc": "2026-09-12T12:45:00+00:00",
-  "generated_at_utc": "2026-09-12T09:46:47.844180+00:00",
+  "generated_at_utc": "2026-09-12T09:48:34.067937+00:00",
   "integrity": {
     "prospective_freeze": true,
     "rule": "Do not rewrite after the first ITV7 leg begins; later analysis belongs in post-race evaluation."
@@ -100,7 +100,7 @@
     "itv7_manifest": "data/racing_api/2026-09-12/itv7/manifest.json",
     "payload_sha256": "eec64b5afb36c48d3811f8a3984d1e65ca9a4777fdc99feb3736303b1144a2ff",
     "provider": "The Racing API",
-    "retrieved_at_utc": "2026-09-12T09:46:46.535661+00:00"
+    "retrieved_at_utc": "2026-09-12T09:48:33.200813+00:00"
   },
   "status": "FROZEN_PRE_RACE"
 }

@@ -5,7 +5,7 @@
     "agreements": 6,
     "legs_compared": 7
   },
-  "generated_at_utc": "2026-09-12T09:46:48.470082+00:00",
+  "generated_at_utc": "2026-09-12T09:48:34.751574+00:00",
   "legs": [
     {
       "agreement_with_frozen_pick": true,
@@ -3599,7 +3599,7 @@
     "itv7_manifest": "data/racing_api/2026-09-12/itv7/manifest.json",
     "payload_sha256": "eec64b5afb36c48d3811f8a3984d1e65ca9a4777fdc99feb3736303b1144a2ff",
     "provider": "The Racing API",
-    "retrieved_at_utc": "2026-09-12T09:46:46.535661+00:00"
+    "retrieved_at_utc": "2026-09-12T09:48:33.200813+00:00"
   },
   "tie_break": null,
   "watcher_layer": {

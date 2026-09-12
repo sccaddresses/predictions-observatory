@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08111f">
-  <meta name="description" content="The SCC PREDICTIONS prospective evidence ledger: completed ITV7 cards, model hit rates, probability scores and race-by-race outcomes.">
+  <meta name="description" content="The SCC PREDICTIONS prospective evidence ledger: today's frozen ITV7 forecast, completed cards, model hit rates, probability scores and race-by-race outcomes.">
   <title>Evidence Ledger — SCC PREDICTIONS</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
@@ -27,25 +27,57 @@
     <div class="shell">
       <div class="eyebrow">Prospective evidence ledger</div>
       <h1>Reality gets the final word.</h1>
-      <p class="lede">This page is deliberately less flattering than a tip sheet. It preserves what each model selected before the races and shows what actually happened afterwards — including non-finishes, missing data and probability error.</p>
-      <div class="hero-actions"><a class="button button-primary" href="#latest-card">Latest evaluated card</a><a class="button" href="#history">Longitudinal record</a></div>
+      <p class="lede">This page separates what is known <strong>before</strong> racing from what is learned <strong>after</strong> racing. Today's forecast is frozen before the first off; settled cards remain below as the permanent evidence ledger.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#today-card">Today's frozen card</a><a class="button" href="#latest-card">Settled evidence</a></div>
     </div>
   </section>
 
   <section class="section-tight">
     <div class="shell">
       <div class="metric-grid">
-        <article class="metric-card"><span class="metric-label">Cards evaluated</span><div class="metric-value" data-metric="cards">1</div><span class="metric-note">Forward-validation cards in the public ledger</span></article>
-        <article class="metric-card"><span class="metric-label">Race legs</span><div class="metric-value" data-metric="legs">7</div><span class="metric-note">Completed result observations</span></article>
+        <article class="metric-card"><span class="metric-label">Cards evaluated</span><div class="metric-value" data-metric="cards">1</div><span class="metric-note">Forward-validation cards in the settled ledger</span></article>
+        <article class="metric-card"><span class="metric-label">Race legs evaluated</span><div class="metric-value" data-metric="legs">4</div><span class="metric-note">Completed result observations currently scored</span></article>
         <article class="metric-card"><span class="metric-label">Retuning threshold</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Minimum cards before performance-led weight review</span></article>
-        <article class="metric-card"><span class="metric-label">Latest card</span><div class="metric-value" style="font-size:clamp(1.7rem,3vw,2.6rem)" data-metric="latest">2026-08-22</div><span class="metric-note">Most recent complete evaluated ITV7 card</span></article>
+        <article class="metric-card"><span class="metric-label">Latest evaluated card</span><div class="metric-value" style="font-size:clamp(1.7rem,3vw,2.6rem)" data-metric="latest">2026-08-22</div><span class="metric-note">Today's card is frozen separately below</span></article>
       </div>
+    </div>
+  </section>
+
+  <section class="section" id="today-card" aria-labelledby="today-title">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Live forecast · 12 September 2026 · PREDICTION_FROZEN · 7/7 legs</div>
+          <h2 id="today-title">Today's ITV7 was frozen before the first off.</h2>
+        </div>
+        <p><strong>Status:</strong> prospective freeze confirmed. First leg 13:45 BST. These selections are pre-race research outputs and are awaiting results; they are not yet part of the settled performance ledger.</p>
+      </div>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Leg</th><th>Race</th><th>Frozen transparent baseline</th><th>Model share</th></tr></thead>
+          <tbody>
+            <tr><td><strong>1</strong></td><td><strong>13:45 Doncaster</strong><br><span class="tiny">Betfred Champagne Stakes (Group 2)</span></td><td><strong>Gentle Hurricane</strong></td><td>24.46%</td></tr>
+            <tr><td><strong>2</strong></td><td><strong>14:05 Chester</strong><br><span class="tiny">Virgin Bet Supports Safe Gambling Watergate Cup</span></td><td><strong>Cranachan</strong></td><td>16.07%</td></tr>
+            <tr><td><strong>3</strong></td><td><strong>14:20 Doncaster</strong><br><span class="tiny">Betfred Portland</span></td><td><strong>Getreadytorumble</strong></td><td>6.24%</td></tr>
+            <tr><td><strong>4</strong></td><td><strong>14:55 Doncaster</strong><br><span class="tiny">Betfred Park Stakes (Group 2)</span></td><td><strong>More Thunder</strong></td><td>17.15%</td></tr>
+            <tr><td><strong>5</strong></td><td><strong>15:35 Doncaster</strong><br><span class="tiny">Betfred St Leger Stakes (Group 1)</span></td><td><strong>Christmas Day</strong></td><td>16.05%</td></tr>
+            <tr><td><strong>6</strong></td><td><strong>15:55 Leopardstown</strong><br><span class="tiny">Coolmore America 'Justify' Matron Stakes (Group 1)</span></td><td><strong>Blue Bolt</strong></td><td>20.16%</td></tr>
+            <tr><td><strong>7</strong></td><td><strong>16:15 Doncaster</strong><br><span class="tiny">Pertemps Network Handicap Stakes</span></td><td><strong>Blue Courvoisier</strong></td><td>9.53%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hero-actions" style="margin-top:20px">
+        <a class="button button-primary" href="downloads/ITV7-Racecards-and-Predictions.pdf">Open today's predictions PDF <span aria-hidden="true">↗</span></a>
+        <a class="button" href="downloads/ITV7-Quant-Shadow.pdf">Open Quant Shadow PDF <span aria-hidden="true">↗</span></a>
+        <a class="button button-ghost" href="downloads/itv7-transparent-baseline.json">View frozen JSON</a>
+      </div>
+      <p class="tiny" style="margin-top:14px">Quant Shadow independently agreed with the frozen baseline on 6 of 7 legs (85.7%). Market-blind model outputs remain separated from post-race evaluation.</p>
     </div>
   </section>
 
   <section class="section" aria-labelledby="cumulative-models-title">
     <div class="shell">
-      <div class="section-head"><div><div class="eyebrow">Cumulative scorecard</div><h2 id="cumulative-models-title">Different models. Same scoreboard.</h2></div><p>Winner and top-three rates are intuitive; log loss and Brier score use the entire probability field and therefore punish overconfidence more intelligently.</p></div>
+      <div class="section-head"><div><div class="eyebrow">Settled cumulative scorecard</div><h2 id="cumulative-models-title">Different models. Same scoreboard.</h2></div><p>Winner and top-three rates are intuitive; log loss and Brier score use the entire probability field and therefore punish overconfidence more intelligently. Today's races will enter this scorecard only after results are reconciled.</p></div>
       <div class="model-grid" data-model-grid></div>
     </div>
   </section>
@@ -53,8 +85,8 @@
   <section class="section" id="latest-card" aria-labelledby="latest-title">
     <div class="shell">
       <div class="section-head">
-        <div><div class="eyebrow">Latest card · <span data-latest-date>2026-08-22</span></div><h2 id="latest-title">Race by race. Nothing hidden.</h2></div>
-        <p data-data-status>Runner matching is based on stable identifiers where available, with explicit normalisation only as a fallback. Non-finishes remain failures rather than vanishing from the sample.</p>
+        <div><div class="eyebrow">Latest evaluated card · <span data-latest-date>2026-08-22</span></div><h2 id="latest-title">Settled race by race. Nothing hidden.</h2></div>
+        <p data-data-status>Runner matching is based on stable identifiers where available, with explicit normalisation only as a fallback. Missing legs remain visible rather than being silently discarded.</p>
       </div>
       <div class="data-table-wrap">
         <table class="data-table">
@@ -86,6 +118,6 @@
   </section>
 </main>
 
-<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and not wagering instructions.</p></div><div class="footer-links"><strong>Explore</strong><a href="index.html">Overview</a><a href="methodology.html">Methodology</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/PREDICTIONS" rel="noopener">Repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Prospective evidence before retrospective certainty.</span></div></div></footer>
+<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and not wagering instructions.</p></div><div class="footer-links"><strong>Explore</strong><a href="index.html">Overview</a><a href="methodology.html">Methodology</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/predictions-observatory" rel="noopener">Public repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Prospective evidence before retrospective certainty.</span></div></div></footer>
 </body>
 </html>

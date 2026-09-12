@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08111f">
-  <meta name="description" content="The SCC PREDICTIONS prospective evidence ledger: today's frozen ITV7 forecast, completed cards, model hit rates, probability scores and race-by-race outcomes.">
+  <meta name="description" content="The SCC PREDICTIONS prospective evidence ledger: current frozen ITV7 forecasts, settled cards, model concordance, probability scores and race-by-race outcomes.">
   <title>Evidence Ledger — SCC PREDICTIONS</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
@@ -27,57 +27,50 @@
     <div class="shell">
       <div class="eyebrow">Prospective evidence ledger</div>
       <h1>Reality gets the final word.</h1>
-      <p class="lede">This page separates what is known <strong>before</strong> racing from what is learned <strong>after</strong> racing. Today's forecast is frozen before the first off; settled cards remain below as the permanent evidence ledger.</p>
-      <div class="hero-actions"><a class="button button-primary" href="#today-card">Today's frozen card</a><a class="button" href="#latest-card">Settled evidence</a></div>
+      <p class="lede">This page separates what is known <strong>before</strong> racing from what is learned <strong>after</strong> racing. Forecasts are frozen before the first off; settled results are appended afterwards without rewriting the pre-race artefact.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#current-card">Current frozen card</a><a class="button" href="#latest-card">Settled evidence</a></div>
     </div>
   </section>
 
   <section class="section-tight">
     <div class="shell">
       <div class="metric-grid">
-        <article class="metric-card"><span class="metric-label">Cards evaluated</span><div class="metric-value" data-metric="cards">1</div><span class="metric-note">Forward-validation cards in the settled ledger</span></article>
-        <article class="metric-card"><span class="metric-label">Race legs evaluated</span><div class="metric-value" data-metric="legs">4</div><span class="metric-note">Completed result observations currently scored</span></article>
-        <article class="metric-card"><span class="metric-label">Retuning threshold</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Minimum cards before performance-led weight review</span></article>
-        <article class="metric-card"><span class="metric-label">Latest evaluated card</span><div class="metric-value" style="font-size:clamp(1.7rem,3vw,2.6rem)" data-metric="latest">2026-08-22</div><span class="metric-note">Today's card is frozen separately below</span></article>
+        <article class="metric-card"><span class="metric-label">Cards with evaluation data</span><div class="metric-value" data-metric="cards">0</div><span class="metric-note">Cards containing at least one scored race leg</span></article>
+        <article class="metric-card"><span class="metric-label">Fully reconciled cards</span><div class="metric-value" data-metric="complete">0</div><span class="metric-note">All seven results resolved or explicitly classified</span></article>
+        <article class="metric-card"><span class="metric-label">Race legs scored</span><div class="metric-value" data-metric="legs">0</div><span class="metric-note">Completed result observations currently scored</span></article>
+        <article class="metric-card"><span class="metric-label">Retuning threshold</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Fully reconciled cards before performance-led weight review</span></article>
       </div>
     </div>
   </section>
 
-  <section class="section" id="today-card" aria-labelledby="today-title">
+  <section class="section" id="current-card" aria-labelledby="current-title">
     <div class="shell">
       <div class="section-head">
         <div>
-          <div class="eyebrow">Live forecast · 12 September 2026 · PREDICTION_FROZEN · 7/7 legs</div>
-          <h2 id="today-title">Today's ITV7 was frozen before the first off.</h2>
+          <div class="eyebrow">Current forecast · <span data-current-date>loading…</span> · <span data-current-state>loading…</span></div>
+          <h2 id="current-title">Frozen before outcome. Compared model by model.</h2>
         </div>
-        <p><strong>Status:</strong> prospective freeze confirmed. First leg 13:45 BST. These selections are pre-race research outputs and are awaiting results; they are not yet part of the settled performance ledger.</p>
+        <p><strong data-current-model-status>PROVISIONAL</strong>. Baseline percentages are <strong>provisional evidence shares</strong>, not historically calibrated win probabilities. Quant Shadow is a separate market-blind challenger using overlapping sporting evidence; agreement is concordance, not independent validation.</p>
       </div>
       <div class="data-table-wrap">
         <table class="data-table">
-          <thead><tr><th>Leg</th><th>Race</th><th>Frozen transparent baseline</th><th>Model share</th></tr></thead>
-          <tbody>
-            <tr><td><strong>1</strong></td><td><strong>13:45 Doncaster</strong><br><span class="tiny">Betfred Champagne Stakes (Group 2)</span></td><td><strong>Gentle Hurricane</strong></td><td>24.46%</td></tr>
-            <tr><td><strong>2</strong></td><td><strong>14:05 Chester</strong><br><span class="tiny">Virgin Bet Supports Safe Gambling Watergate Cup</span></td><td><strong>Cranachan</strong></td><td>16.07%</td></tr>
-            <tr><td><strong>3</strong></td><td><strong>14:20 Doncaster</strong><br><span class="tiny">Betfred Portland</span></td><td><strong>Getreadytorumble</strong></td><td>6.24%</td></tr>
-            <tr><td><strong>4</strong></td><td><strong>14:55 Doncaster</strong><br><span class="tiny">Betfred Park Stakes (Group 2)</span></td><td><strong>More Thunder</strong></td><td>17.15%</td></tr>
-            <tr><td><strong>5</strong></td><td><strong>15:35 Doncaster</strong><br><span class="tiny">Betfred St Leger Stakes (Group 1)</span></td><td><strong>Christmas Day</strong></td><td>16.05%</td></tr>
-            <tr><td><strong>6</strong></td><td><strong>15:55 Leopardstown</strong><br><span class="tiny">Coolmore America 'Justify' Matron Stakes (Group 1)</span></td><td><strong>Blue Bolt</strong></td><td>20.16%</td></tr>
-            <tr><td><strong>7</strong></td><td><strong>16:15 Doncaster</strong><br><span class="tiny">Pertemps Network Handicap Stakes</span></td><td><strong>Blue Courvoisier</strong></td><td>9.53%</td></tr>
-          </tbody>
+          <thead><tr><th>Leg</th><th>Race</th><th>Baseline</th><th>Evidence share†</th><th>Quant Shadow</th><th>Shadow margin</th><th>Concordance</th></tr></thead>
+          <tbody data-current-races><tr><td colspan="7">Loading current frozen forecast…</td></tr></tbody>
         </table>
       </div>
+      <p class="tiny" style="margin-top:12px">† Race-normalised research score from the provisional transparent heuristic; it must not be read as a calibrated chance of winning. Shadow margin is the simulated support gap between Quant Shadow's top two runners.</p>
       <div class="hero-actions" style="margin-top:20px">
-        <a class="button button-primary" href="downloads/ITV7-Racecards-and-Predictions.pdf">Open today's predictions PDF <span aria-hidden="true">↗</span></a>
+        <a class="button button-primary" href="downloads/ITV7-Racecards-and-Predictions.pdf">Open predictions PDF <span aria-hidden="true">↗</span></a>
         <a class="button" href="downloads/ITV7-Quant-Shadow.pdf">Open Quant Shadow PDF <span aria-hidden="true">↗</span></a>
         <a class="button button-ghost" href="downloads/itv7-transparent-baseline.json">View frozen JSON</a>
       </div>
-      <p class="tiny" style="margin-top:14px">Quant Shadow independently agreed with the frozen baseline on 6 of 7 legs (85.7%). Market-blind model outputs remain separated from post-race evaluation.</p>
+      <p class="tiny" style="margin-top:14px"><span data-current-agreement>Model-family concordance loading…</span>. Disagreement is deliberately retained as evidence rather than resolved after the fact.</p>
     </div>
   </section>
 
   <section class="section" aria-labelledby="cumulative-models-title">
     <div class="shell">
-      <div class="section-head"><div><div class="eyebrow">Settled cumulative scorecard</div><h2 id="cumulative-models-title">Different models. Same scoreboard.</h2></div><p>Winner and top-three rates are intuitive; log loss and Brier score use the entire probability field and therefore punish overconfidence more intelligently. Today's races will enter this scorecard only after results are reconciled.</p></div>
+      <div class="section-head"><div><div class="eyebrow">Settled cumulative scorecard</div><h2 id="cumulative-models-title">Different models. Same scoreboard.</h2></div><p>Winner and top-three rates are intuitive; log loss and Brier score use the full probability field where one exists. The SCC Core legacy selection stream remains ranking-only and is therefore not retrospectively assigned probabilities.</p></div>
       <div class="model-grid" data-model-grid></div>
     </div>
   </section>
@@ -85,12 +78,12 @@
   <section class="section" id="latest-card" aria-labelledby="latest-title">
     <div class="shell">
       <div class="section-head">
-        <div><div class="eyebrow">Latest evaluated card · <span data-latest-date>2026-08-22</span></div><h2 id="latest-title">Settled race by race. Nothing hidden.</h2></div>
-        <p data-data-status>Runner matching is based on stable identifiers where available, with explicit normalisation only as a fallback. Missing legs remain visible rather than being silently discarded.</p>
+        <div><div class="eyebrow">Latest historical evaluation · <span data-latest-date>—</span></div><h2 id="latest-title">Settled race by race. Nothing hidden.</h2></div>
+        <p data-data-status>Missing legs remain visible rather than being silently discarded. A card is counted as fully reconciled only after all seven legs are resolved or explicitly classified.</p>
       </div>
       <div class="data-table-wrap">
         <table class="data-table">
-          <thead><tr><th>Leg</th><th>Race</th><th>Winner</th><th>Frozen SCC</th><th>Baseline top</th><th>Quant Shadow</th></tr></thead>
+          <thead><tr><th>Leg</th><th>Race</th><th>Winner</th><th>SCC Core</th><th>Baseline top</th><th>Quant Shadow</th></tr></thead>
           <tbody data-latest-races><tr><td colspan="6">Loading forward-validation ledger…</td></tr></tbody>
         </table>
       </div>
@@ -100,10 +93,10 @@
 
   <section class="section" id="history" aria-labelledby="history-title">
     <div class="shell">
-      <div class="section-head"><div><div class="eyebrow">Longitudinal record</div><h2 id="history-title">The ledger grows forward, never backward.</h2></div><p>As new ITV7 cards are prospectively frozen and settled, this table expands automatically. The same mechanism can later support football and market prediction modules without weakening the anti-hindsight contract.</p></div>
+      <div class="section-head"><div><div class="eyebrow">Longitudinal record</div><h2 id="history-title">The ledger grows forward, never backward.</h2></div><p>Coverage is shown explicitly for every card. Partial cards remain partial until their missing results can be recovered from a legitimate historical source with provenance.</p></div>
       <div class="data-table-wrap">
         <table class="data-table">
-          <thead><tr><th>Date</th><th>Coverage</th><th>Frozen wins</th><th>Baseline wins</th><th>Shadow wins</th><th>Baseline log loss</th><th>Shadow log loss</th></tr></thead>
+          <thead><tr><th>Date</th><th>Coverage</th><th>SCC wins</th><th>Baseline wins</th><th>Shadow wins</th><th>Baseline log loss</th><th>Shadow log loss</th></tr></thead>
           <tbody data-recent-cards><tr><td colspan="7">Loading longitudinal record…</td></tr></tbody>
         </table>
       </div>
@@ -113,7 +106,7 @@
   <section class="section-tight">
     <div class="shell split">
       <article class="panel"><div class="eyebrow">What counts</div><h2 style="font-size:clamp(2rem,4vw,3.4rem)">A race is evidence. A bet slip is packaging.</h2><p>A losing accumulator can contain useful individual forecasts; a winning accumulator can contain poorly calibrated probabilities. The project therefore evaluates the forecast system race-by-race and keeps wagering structures outside the core score.</p></article>
-      <article class="panel panel-dark"><div class="eyebrow">Retuning gate</div><div class="quote-number" data-metric="threshold">50</div><h3>completed ITV7 cards before performance-driven retuning.</h3><p>Engineering fixes, leakage fixes and data-quality corrections can happen immediately. Performance-driven weight changes wait for a meaningful forward sample.</p><div class="progress" data-retuning-progress><span></span></div></article>
+      <article class="panel panel-dark"><div class="eyebrow">Retuning gate</div><div class="quote-number" data-metric="threshold">50</div><h3>fully reconciled ITV7 cards before performance-driven retuning.</h3><p>Diagnostic reviews occur earlier at 5, 10 and 25 cards, but model weights remain frozen. Engineering, leakage and data-quality corrections can happen immediately.</p><div class="progress" data-retuning-progress><span></span></div></article>
     </div>
   </section>
 </main>

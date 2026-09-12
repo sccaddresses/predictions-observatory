@@ -52,7 +52,7 @@ function initNav() {
     toggle.setAttribute("aria-expanded", String(open));
   });
 
-  $$('a', links).forEach((link) => link.addEventListener("click", close));
+  $$("a", links).forEach((link) => link.addEventListener("click", close));
   window.addEventListener("keydown", (event) => {
     if (event.key === "Escape") close();
   });
@@ -70,7 +70,8 @@ function bindSimple(data) {
 function renderHeadlineMetrics(data) {
   const ledger = data.ledger || {};
   const values = {
-    cards: ledger.cards_evaluated ?? 0,
+    cards: ledger.cards_with_evaluation ?? ledger.cards_evaluated ?? 0,
+    complete: ledger.fully_reconciled_cards ?? ledger.complete_cards ?? 0,
     legs: ledger.race_legs_evaluated ?? 0,
     threshold: ledger.retuning_threshold_cards ?? 50,
     latest: ledger.latest_card || "Awaiting card",
@@ -81,7 +82,7 @@ function renderHeadlineMetrics(data) {
   });
 
   const progress = ledger.retuning_threshold_cards
-    ? Math.min(100, (Number(ledger.cards_evaluated || 0) / Number(ledger.retuning_threshold_cards)) * 100)
+    ? Math.min(100, (Number(ledger.fully_reconciled_cards || ledger.complete_cards || 0) / Number(ledger.retuning_threshold_cards)) * 100)
     : 0;
   $$('[data-retuning-progress]').forEach((node) => {
     node.style.setProperty("--progress", `${progress}%`);
@@ -89,7 +90,7 @@ function renderHeadlineMetrics(data) {
 }
 
 const modelMeta = {
-  frozen_scc: { key: "frozen", description: "The prospectively locked SCC evidence-led selection." },
+  frozen_scc: { key: "frozen", description: "SCC Core legacy selection stream; ranking-only until probability estimates are introduced prospectively." },
   transparent_baseline: { key: "baseline", description: "A deterministic race-normalised benchmark." },
   quant_shadow: { key: "shadow", description: "Independent Monte Carlo scenario model; market-blind by design." },
 };
@@ -131,6 +132,56 @@ function finishLabel(model) {
 function selectionCell(model) {
   if (!model) return "—";
   return `<strong>${model.selection || "—"}</strong><br><span class="tiny">Finish ${finishLabel(model)}</span>`;
+}
+
+function renderCurrentForecast(data) {
+  const host = $("[data-current-races]");
+  if (!host) return;
+  const current = data.current_forecast;
+  const legs = current?.legs || [];
+  if (!legs.length) {
+    host.innerHTML = '<tr><td colspan="7">No current frozen ITV7 forecast is published.</td></tr>';
+    return;
+  }
+
+  $$('[data-current-date]').forEach((node) => { node.textContent = current.date || "—"; });
+  $$('[data-current-state]').forEach((node) => { node.textContent = current.state || "FROZEN"; });
+  $$('[data-current-model-status]').forEach((node) => {
+    node.textContent = current.model_status || "PROVISIONAL";
+  });
+
+  host.innerHTML = legs.map((leg) => {
+    const agreement = leg.agreement === true
+      ? '<span class="result-win">AGREE</span>'
+      : leg.agreement === false
+        ? '<span class="result-loss">DISAGREE</span>'
+        : "—";
+    const share = leg.evidence_share === null || leg.evidence_share === undefined
+      ? "—"
+      : formatPct(leg.evidence_share, 2);
+    const margin = leg.shadow_margin_pct === null || leg.shadow_margin_pct === undefined
+      ? "—"
+      : `${formatNumber(leg.shadow_margin_pct, 2)}pp`;
+    return `
+      <tr>
+        <td><strong>${leg.leg}</strong></td>
+        <td><strong>${leg.off_time || "—"} ${leg.course || ""}</strong><br><span class="tiny">${leg.race_name || ""}</span></td>
+        <td><strong>${cleanHorse(leg.baseline_selection)}</strong></td>
+        <td>${share}</td>
+        <td><strong>${cleanHorse(leg.shadow_selection)}</strong></td>
+        <td>${margin}</td>
+        <td>${agreement}</td>
+      </tr>`;
+  }).join("");
+
+  const agreementNode = $("[data-current-agreement]");
+  if (agreementNode) {
+    const agreements = current.agreements;
+    const compared = current.legs_compared;
+    agreementNode.textContent = Number.isFinite(Number(agreements)) && Number.isFinite(Number(compared))
+      ? `${agreements}/${compared} model-family concordance`
+      : "Model-family concordance awaiting comparison";
+  }
 }
 
 function renderLatestRaces(data) {
@@ -193,6 +244,7 @@ async function loadData() {
     bindSimple(data);
     renderHeadlineMetrics(data);
     renderModels(data);
+    renderCurrentForecast(data);
     renderLatestRaces(data);
     renderRecentCards(data);
     renderPrinciples(data);

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script defer src="assets/app.js"></script>
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"ResearchProject","name":"SCC PREDICTIONS","description":"Prospective, evidence-led prediction research with immutable pre-event forecasts and post-event evaluation.","url":"https://sccaddresses.github.io/PREDICTIONS/"}
+    {"@context":"https://schema.org","@type":"ResearchProject","name":"SCC PREDICTIONS","description":"Prospective, evidence-led prediction research with immutable pre-event forecasts and post-event evaluation.","url":"https://sccaddresses.github.io/predictions-observatory/"}
   </script>
 </head>
 <body>
@@ -62,7 +62,7 @@
         <div class="core">
           <div>
             <span>Forward ledger</span>
-            <strong data-metric="legs">7</strong>
+            <strong data-metric="legs">0</strong>
             <span>race legs evaluated</span>
           </div>
         </div>
@@ -84,10 +84,10 @@
         <p data-data-status>The public layer is rebuilt from the repository ledger. If a result is absent, it stays absent rather than being invented.</p>
       </div>
       <div class="metric-grid">
-        <article class="metric-card"><span class="metric-label">Cards evaluated</span><div class="metric-value" data-metric="cards">1</div><span class="metric-note">Completed forward-validation cards</span></article>
-        <article class="metric-card"><span class="metric-label">Race observations</span><div class="metric-value" data-metric="legs">7</div><span class="metric-note">The race — not the bet slip — is the evidence unit</span></article>
-        <article class="metric-card"><span class="metric-label">Retuning gate</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Cards required before performance-led retuning</span></article>
-        <article class="metric-card"><span class="metric-label">Latest validated card</span><div class="metric-value" style="font-size:clamp(1.6rem,3vw,2.6rem)" data-metric="latest">2026-08-22</div><span class="metric-note">Latest complete ITV7 prospective evaluation</span></article>
+        <article class="metric-card"><span class="metric-label">Cards with evaluation data</span><div class="metric-value" data-metric="cards">0</div><span class="metric-note">Partial and complete cards remain distinguishable</span></article>
+        <article class="metric-card"><span class="metric-label">Fully reconciled cards</span><div class="metric-value" data-metric="complete">0</div><span class="metric-note">All seven legs resolved or explicitly classified</span></article>
+        <article class="metric-card"><span class="metric-label">Race observations</span><div class="metric-value" data-metric="legs">0</div><span class="metric-note">The race — not the bet slip — is the evidence unit</span></article>
+        <article class="metric-card"><span class="metric-label">Retuning gate</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Fully reconciled cards required before performance-led retuning</span></article>
       </div>
     </div>
   </section>
@@ -97,14 +97,14 @@
       <div class="section-head">
         <div>
           <div class="eyebrow">Independent lenses</div>
-          <h2 id="models-title">Three models. No quiet rewriting.</h2>
+          <h2 id="models-title">Three evidence streams. No quiet rewriting.</h2>
         </div>
         <p>Agreement is useful. Disagreement is useful too. Each family is preserved so the project can learn which signals travel forward rather than merely explaining the past.</p>
       </div>
       <div class="model-grid" data-model-grid>
-        <article class="model-card" data-model="frozen"><div class="model-chip">Frozen SCC</div><h3>Frozen SCC</h3><p>The prospectively locked SCC evidence-led selection.</p></article>
+        <article class="model-card" data-model="frozen"><div class="model-chip">SCC Core</div><h3>SCC Core</h3><p>The prospectively locked SCC evidence-led selection stream; historical records are ranking-only unless probabilities were frozen prospectively.</p></article>
         <article class="model-card" data-model="baseline"><div class="model-chip">Transparent baseline</div><h3>Transparent baseline</h3><p>A deterministic race-normalised benchmark.</p></article>
-        <article class="model-card" data-model="shadow"><div class="model-chip">Quant Shadow</div><h3>Quant Shadow</h3><p>An independent Monte Carlo scenario model.</p></article>
+        <article class="model-card" data-model="shadow"><div class="model-chip">Quant Shadow</div><h3>Quant Shadow</h3><p>A separate Monte Carlo scenario challenger, kept market-blind by design.</p></article>
       </div>
     </div>
   </section>
@@ -117,10 +117,10 @@
         <p>The architecture refuses to blur these stages. That separation is how we can distinguish independent sporting signal from market imitation and post-event storytelling.</p>
         <div class="flow">
           <div class="flow-step"><div class="flow-index">01</div><div><strong>Capture</strong><span>Racecards, conditions and provenance arrive as point-in-time evidence.</span></div></div>
-          <div class="flow-step"><div class="flow-index">02</div><div><strong>Model</strong><span>Independent probability families create pre-event views.</span></div></div>
-          <div class="flow-step"><div class="flow-index">03</div><div><strong>Freeze</strong><span>Selections, probabilities and source hashes are locked before the outcome.</span></div></div>
-          <div class="flow-step"><div class="flow-index">04</div><div><strong>Verify</strong><span>Official results are matched back by race and runner identifiers.</span></div></div>
-          <div class="flow-step"><div class="flow-index">05</div><div><strong>Learn</strong><span>Log loss, Brier score, ranks and hit rates accumulate prospectively.</span></div></div>
+          <div class="flow-step"><div class="flow-index">02</div><div><strong>Model</strong><span>Distinct model families create pre-event views.</span></div></div>
+          <div class="flow-step"><div class="flow-index">03</div><div><strong>Freeze</strong><span>Selections, evidence shares or probabilities, and source hashes are locked before the outcome.</span></div></div>
+          <div class="flow-step"><div class="flow-index">04</div><div><strong>Verify</strong><span>Results are matched back by race and runner identifiers.</span></div></div>
+          <div class="flow-step"><div class="flow-index">05</div><div><strong>Learn</strong><span>Hit rates and, where a full probability field exists, log loss and Brier score accumulate prospectively.</span></div></div>
         </div>
       </article>
 
@@ -129,7 +129,7 @@
         <div class="evidence-copy">
           <div class="eyebrow">Anti-hindsight by design</div>
           <div class="quote-number">50</div>
-          <h3>cards before performance-led retuning.</h3>
+          <h3>fully reconciled cards before performance-led retuning.</h3>
           <p>One Saturday can teach us about engineering, data quality and missing features. It cannot be allowed to teach the weights what happened after those weights were already used.</p>
           <div class="progress" data-retuning-progress aria-label="Progress toward the retuning evidence threshold"><span></span></div>
         </div>
@@ -149,18 +149,17 @@
       <div class="feature-grid">
         <article class="feature-card"><div class="feature-icon">⌁</div><h3>Course DNA</h3><p>Direction, turns, straight length, undulation, gradients, draw interaction and course similarity as a reusable geometry layer.</p></article>
         <article class="feature-card"><div class="feature-icon">↝</div><h3>Pace & race shape</h3><p>Front-runners, prominent racers, midfield and held-up profiles become expected pressure — not a paragraph added after the finish.</p></article>
-        <article class="feature-card"><div class="feature-icon">◎</div><h3>Human engine</h3><p>Trainer × course, jockey × course, horse × jockey and trainer × jockey signals with shrinkage for small samples.</p></article>
-        <article class="feature-card"><div class="feature-icon">∿</div><h3>Calibration ledger</h3><p>Every model probability is compared with reality over time, by race class, course, distance, ground, field size and confidence band.</p></article>
+        <article class="feature-card"><div class="feature-icon">◎</div><h3>Human engine</h3><p>Trainer × course, jockey × course, horse × jockey and stable context can be measured with proper shrinkage instead of anecdote.</p></article>
+        <article class="feature-card"><div class="feature-icon">☂</div><h3>Weather & going</h3><p>Time-stamped rainfall, wind, temperature and going evolution can be connected to course geometry and runner evidence.</p></article>
+        <article class="feature-card"><div class="feature-icon">∿</div><h3>Probability quality</h3><p>Calibration curves, Brier score and log loss matter more than simply counting winners once models publish full probability fields.</p></article>
+        <article class="feature-card"><div class="feature-icon">↔</div><h3>Market discrepancy</h3><p>Market prices remain separate evidence so disagreement can be studied rather than quietly baked into a supposedly independent model.</p></article>
       </div>
     </div>
   </section>
 
   <section class="section-tight" aria-labelledby="principles-title">
     <div class="shell">
-      <div class="section-head">
-        <div><div class="eyebrow">Research discipline</div><h2 id="principles-title">Rules that survive a losing day.</h2></div>
-        <p>These are operational constraints, not marketing claims. They are generated into the public site from the same project that produces the predictions.</p>
-      </div>
+      <div class="section-head"><div><div class="eyebrow">Non-negotiables</div><h2 id="principles-title">What this project refuses to fake.</h2></div><p>These principles are published from the same data build as the ledger.</p></div>
       <div class="principles" data-principles>
         <article class="principle-card"><strong>Freeze before outcome</strong></article>
         <article class="principle-card"><strong>Separate model from market</strong></article>
@@ -175,7 +174,7 @@
     <div class="shell callout">
       <div class="eyebrow">Open the ledger</div>
       <h2>See the forecast meet reality.</h2>
-      <p class="lede">The evidence page exposes every completed race on the latest evaluated card, including the winner and the selection made by each independent model family.</p>
+      <p class="lede">The evidence page exposes the current frozen card before racing and preserves settled historical evaluations afterwards, including incomplete coverage rather than hiding it.</p>
       <div class="hero-actions"><a class="button button-primary" href="results.html">Open evidence ledger</a><a class="button" href="methodology.html">Read methodology</a></div>
     </div>
   </section>
@@ -186,7 +185,7 @@
     <div class="footer-grid">
       <div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain. No automated wagering or financial recommendation is provided.</p></div>
       <div class="footer-links"><strong>Explore</strong><a href="results.html">Evidence ledger</a><a href="methodology.html">Methodology</a><a href="about.html">Project</a></div>
-      <div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/PREDICTIONS" rel="noopener">Repository</a></div>
+      <div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/predictions-observatory" rel="noopener">Repository</a></div>
     </div>
     <div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Prospective evidence before retrospective certainty.</span></div>
   </div>

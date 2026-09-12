@@ -1,5 +1,103 @@
 {
-  "generated_at_utc": "2026-09-12T10:10:19.796641+00:00",
+  "current_forecast": {
+    "agreement_rate": 0.8571428571428571,
+    "agreements": 6,
+    "date": "2026-09-12",
+    "first_off_utc": "2026-09-12T12:45:00+00:00",
+    "generated_at_utc": "2026-09-12T09:48:34.067937+00:00",
+    "legs": [
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 24.46%. Among the strongest official ratings; recent placed form; race-fit recency window.",
+        "baseline_selection": "Gentle Hurricane",
+        "course": "Doncaster",
+        "evidence_share": 0.2445752986481446,
+        "leg": 1,
+        "off_time": "13:45",
+        "race_name": "Betfred Champagne Stakes (Group 2)",
+        "shadow_margin_pct": 16.53,
+        "shadow_selection": "Gentle Hurricane"
+      },
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 16.07%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
+        "baseline_selection": "Cranachan",
+        "course": "Chester",
+        "evidence_share": 0.16071065699310771,
+        "leg": 2,
+        "off_time": "14:05",
+        "race_name": "Virgin Bet Supports Safe Gambling Watergate Cup (Class 2 Heritage Handicap) (gbbplus Race)",
+        "shadow_margin_pct": 14.19,
+        "shadow_selection": "Cranachan"
+      },
+      {
+        "agreement": false,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 6.24%. Among the strongest official ratings; recent placed form; younger profile with scope to progress.",
+        "baseline_selection": "Getreadytorumble",
+        "course": "Doncaster",
+        "evidence_share": 0.062448399642901824,
+        "leg": 3,
+        "off_time": "14:20",
+        "race_name": "Betfred Portland (Class 2 Heritage Handicap)",
+        "shadow_margin_pct": 1.07,
+        "shadow_selection": "Dubai Bling"
+      },
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 17.15%. Among the strongest official ratings; race-fit recency window.",
+        "baseline_selection": "More Thunder",
+        "course": "Doncaster",
+        "evidence_share": 0.17146105139045345,
+        "leg": 4,
+        "off_time": "14:55",
+        "race_name": "Betfred Park Stakes (Group 2)",
+        "shadow_margin_pct": 36.99,
+        "shadow_selection": "More Thunder"
+      },
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 16.05%. Among the strongest official ratings; recent placed form; younger profile with scope to progress.",
+        "baseline_selection": "Christmas Day",
+        "course": "Doncaster",
+        "evidence_share": 0.16051733648751554,
+        "leg": 5,
+        "off_time": "15:35",
+        "race_name": "Betfred St Leger Stakes (Group 1)",
+        "shadow_margin_pct": 33.84,
+        "shadow_selection": "Christmas Day"
+      },
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 20.16%. Among the strongest official ratings; won latest recorded run; younger profile with scope to progress.",
+        "baseline_selection": "Blue Bolt",
+        "course": "Leopardstown",
+        "evidence_share": 0.20156170427647255,
+        "leg": 6,
+        "off_time": "15:55",
+        "race_name": "Coolmore America 'Justify' Matron Stakes (Group 1)",
+        "shadow_margin_pct": 36.43,
+        "shadow_selection": "Blue Bolt"
+      },
+      {
+        "agreement": true,
+        "baseline_rationale": "Transparent baseline rank 1; provisional evidence share 9.53%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
+        "baseline_selection": "Blue Courvoisier",
+        "course": "Doncaster",
+        "evidence_share": 0.09527506261295086,
+        "leg": 7,
+        "off_time": "16:15",
+        "race_name": "Pertemps Network Handicap Stakes",
+        "shadow_margin_pct": 10.71,
+        "shadow_selection": "Blue Courvoisier"
+      }
+    ],
+    "legs_compared": 7,
+    "method_note": "Deterministic structured-data baseline using official rating, recent form, weight, recency, age/progression and a bounded Chester draw prior. It is a research baseline, not a validated betting model.",
+    "model_status": "PROVISIONAL_TRANSPARENT_HEURISTIC",
+    "prospective_freeze": true,
+    "state": "PREDICTION_FROZEN"
+  },
+  "generated_at_utc": "2026-09-12T10:51:17.752864+00:00",
   "latest_card": {
     "date": "2026-08-22",
     "races": [
@@ -45,7 +143,7 @@
         "models": {
           "frozen_scc": {
             "finish_position": 2,
-            "label": "Frozen SCC",
+            "label": "SCC Core",
             "non_finish": false,
             "result_code": "2",
             "selection": "By The Book",
@@ -84,7 +182,7 @@
         "models": {
           "frozen_scc": {
             "finish_position": 1,
-            "label": "Frozen SCC",
+            "label": "SCC Core",
             "non_finish": false,
             "result_code": "1",
             "selection": "Notable Speech",
@@ -123,7 +221,7 @@
         "models": {
           "frozen_scc": {
             "finish_position": 8,
-            "label": "Frozen SCC",
+            "label": "SCC Core",
             "non_finish": false,
             "result_code": "8",
             "selection": "Klassleader",
@@ -162,7 +260,7 @@
         "models": {
           "frozen_scc": {
             "finish_position": 4,
-            "label": "Frozen SCC",
+            "label": "SCC Core",
             "non_finish": false,
             "result_code": "4",
             "selection": "Dance In The Storm",
@@ -205,8 +303,32 @@
   },
   "ledger": {
     "cards_evaluated": 1,
+    "cards_with_evaluation": 1,
     "complete_cards": 0,
+    "diagnostic_checkpoints": [
+      {
+        "cards": 5,
+        "legs": 35,
+        "purpose": "data-quality review only"
+      },
+      {
+        "cards": 10,
+        "legs": 70,
+        "purpose": "calibration diagnostic only"
+      },
+      {
+        "cards": 25,
+        "legs": 175,
+        "purpose": "segment and failure-mode diagnostics"
+      },
+      {
+        "cards": 50,
+        "legs": 350,
+        "purpose": "formal performance review / challenger decision"
+      }
+    ],
     "first_card": "2026-08-22",
+    "fully_reconciled_cards": 0,
     "latest_card": "2026-08-22",
     "race_legs_evaluated": 4,
     "retuning_threshold_cards": 50,
@@ -214,7 +336,7 @@
   },
   "models": {
     "frozen_scc": {
-      "label": "Frozen SCC",
+      "label": "SCC Core",
       "legs_scored": 4,
       "mean_brier_score": null,
       "mean_finish_position": 3.75,
@@ -273,7 +395,7 @@
       "itv7_legs": 7,
       "models": {
         "frozen_scc": {
-          "label": "Frozen SCC",
+          "label": "SCC Core",
           "legs_scored": 4,
           "mean_brier_score": null,
           "mean_log_loss": null,

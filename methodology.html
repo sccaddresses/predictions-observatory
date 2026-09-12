@@ -45,7 +45,7 @@
       <div class="timeline">
         <article class="timeline-item"><div class="timeline-dot">01</div><div><h3>Acquire</h3><p>Racecards and conditions are captured from configured providers with retrieval timestamps. Raw source payloads are stored before feature generation.</p></div></article>
         <article class="timeline-item"><div class="timeline-dot">02</div><div><h3>Structure</h3><p>The seven ITV7 legs are identified deterministically. Runner identity, form, official rating, weight, draw, trainer, jockey and provenance remain linked.</p></div></article>
-        <article class="timeline-item"><div class="timeline-dot">03</div><div><h3>Model independently</h3><p>Frozen SCC judgement, the transparent baseline and Quant Shadow remain distinct model families. A future historical ensemble will also be versioned independently.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">03</div><div><h3>Model independently</h3><p>SCC Core, the transparent baseline and Quant Shadow remain distinct evidence streams. Frozen is a publication state, not a model family. A future historical ensemble will also be versioned independently.</p></div></article>
         <article class="timeline-item"><div class="timeline-dot">04</div><div><h3>Freeze</h3><p>Pre-event predictions become immutable artefacts. A later change requires a new version and a new forward test, not a corrected past.</p></div></article>
         <article class="timeline-item"><div class="timeline-dot">05</div><div><h3>Observe the market</h3><p>When available, read-only market snapshots are captured separately. Model-market probability gaps are diagnostics, not proof of value.</p></div></article>
         <article class="timeline-item"><div class="timeline-dot">06</div><div><h3>Settle and score</h3><p>Provider results are matched back to race and runner identifiers. Winners, placings, non-finishes, log loss and Brier score are recorded without silently dropping awkward outcomes.</p></div></article>
@@ -56,7 +56,7 @@
 
   <section class="section" id="metrics" aria-labelledby="metrics-title">
     <div class="shell">
-      <div class="section-head"><div><div class="eyebrow">Evaluation metrics</div><h2 id="metrics-title">A winner is useful. A probability is richer.</h2></div><p>Hit rates answer whether the top selection won. Probability scores ask whether the entire field distribution was sensible — including how confidently the model was wrong.</p></div>
+      <div class="section-head"><div><div class="eyebrow">Evaluation metrics</div><h2 id="metrics-title">A winner is useful. A probability is richer.</h2></div><p>Hit rates answer whether the top selection won. Probability scores ask whether the entire field distribution was sensible — including how confidently the model was wrong. SCC Core historical selections remain ranking-only unless a full probability field was frozen prospectively.</p></div>
       <div class="feature-grid">
         <article class="feature-card"><div class="feature-icon">1</div><h3>Winner hit</h3><p>The easiest measure to understand: did the model's selected runner win? Useful, but it discards almost all of the probability information.</p></article>
         <article class="feature-card"><div class="feature-icon">3</div><h3>Top-three finish</h3><p>A secondary ranking measure that captures near-misses without pretending a placing is the same thing as a win.</p></article>
@@ -70,7 +70,7 @@
     <div class="shell callout">
       <div class="eyebrow">Governance threshold</div>
       <h2>One card can expose a bug. It cannot justify performance chasing.</h2>
-      <p class="lede">The default gate is <strong>50 completed ITV7 cards / 350 race legs</strong> before a planned performance-driven retuning review. Engineering fixes, data-quality fixes and leakage corrections are allowed earlier because they protect validity rather than chase the last result.</p>
+      <p class="lede">The default gate is <strong>50 fully reconciled ITV7 cards / 350 race legs</strong> before a planned performance-driven retuning review. Non-retuning diagnostic checkpoints occur at 5 cards (data quality), 10 (calibration), and 25 (segments / failure modes). Engineering fixes, data-quality fixes and leakage corrections are allowed earlier because they protect validity rather than chase the last result.</p>
       <div class="progress" data-retuning-progress aria-label="Progress toward retuning threshold"><span></span></div>
     </div>
   </section>
@@ -97,6 +97,6 @@
   <section class="section-tight" aria-labelledby="principles-title"><div class="shell"><div class="section-head"><div><div class="eyebrow">Non-negotiables</div><h2 id="principles-title">What the project will keep doing.</h2></div><p>The public website reads these principles from the same data build that publishes the model ledger.</p></div><div class="principles" data-principles></div></div></section>
 </main>
 
-<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and are not financial or wagering advice.</p></div><div class="footer-links"><strong>Explore</strong><a href="results.html">Evidence ledger</a><a href="index.html">Overview</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/PREDICTIONS" rel="noopener">Repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Method before mythology.</span></div></div></footer>
+<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and are not financial or wagering advice.</p></div><div class="footer-links"><strong>Explore</strong><a href="results.html">Evidence ledger</a><a href="index.html">Overview</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/predictions-observatory" rel="noopener">Repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Method before mythology.</span></div></div></footer>
 </body>
 </html>

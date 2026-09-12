@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="The SCC PREDICTIONS prospective evidence ledger: completed ITV7 cards, model hit rates, probability scores and race-by-race outcomes.">
+  <title>Evidence Ledger — SCC PREDICTIONS</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>by SCC Nexus</small></span></a>
+    <nav class="nav-links" data-nav-links data-open="false" aria-label="Primary navigation">
+      <a href="index.html">Overview</a><a href="results.html" aria-current="page">Evidence ledger</a><a href="methodology.html">Methodology</a><a href="about.html">Project</a>
+    </nav>
+    <div style="display:flex;gap:8px;align-items:center"><button class="nav-action" data-theme-toggle type="button" aria-label="Change colour theme">☀</button><button class="nav-action nav-toggle" data-nav-toggle type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="shell">
+      <div class="eyebrow">Prospective evidence ledger</div>
+      <h1>Reality gets the final word.</h1>
+      <p class="lede">This page is deliberately less flattering than a tip sheet. It preserves what each model selected before the races and shows what actually happened afterwards — including non-finishes, missing data and probability error.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#latest-card">Latest evaluated card</a><a class="button" href="#history">Longitudinal record</a></div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="shell">
+      <div class="metric-grid">
+        <article class="metric-card"><span class="metric-label">Cards evaluated</span><div class="metric-value" data-metric="cards">1</div><span class="metric-note">Forward-validation cards in the public ledger</span></article>
+        <article class="metric-card"><span class="metric-label">Race legs</span><div class="metric-value" data-metric="legs">7</div><span class="metric-note">Completed result observations</span></article>
+        <article class="metric-card"><span class="metric-label">Retuning threshold</span><div class="metric-value" data-metric="threshold">50</div><span class="metric-note">Minimum cards before performance-led weight review</span></article>
+        <article class="metric-card"><span class="metric-label">Latest card</span><div class="metric-value" style="font-size:clamp(1.7rem,3vw,2.6rem)" data-metric="latest">2026-08-22</div><span class="metric-note">Most recent complete evaluated ITV7 card</span></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="cumulative-models-title">
+    <div class="shell">
+      <div class="section-head"><div><div class="eyebrow">Cumulative scorecard</div><h2 id="cumulative-models-title">Different models. Same scoreboard.</h2></div><p>Winner and top-three rates are intuitive; log loss and Brier score use the entire probability field and therefore punish overconfidence more intelligently.</p></div>
+      <div class="model-grid" data-model-grid></div>
+    </div>
+  </section>
+
+  <section class="section" id="latest-card" aria-labelledby="latest-title">
+    <div class="shell">
+      <div class="section-head">
+        <div><div class="eyebrow">Latest card · <span data-latest-date>2026-08-22</span></div><h2 id="latest-title">Race by race. Nothing hidden.</h2></div>
+        <p data-data-status>Runner matching is based on stable identifiers where available, with explicit normalisation only as a fallback. Non-finishes remain failures rather than vanishing from the sample.</p>
+      </div>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Leg</th><th>Race</th><th>Winner</th><th>Frozen SCC</th><th>Baseline top</th><th>Quant Shadow</th></tr></thead>
+          <tbody data-latest-races><tr><td colspan="6">Loading forward-validation ledger…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="hero-actions" style="margin-top:20px"><a class="button" href="downloads/ITV7-Post-Race-Evaluation.pdf">Open latest evaluation PDF <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="methodology.html#metrics">How the metrics work</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="history" aria-labelledby="history-title">
+    <div class="shell">
+      <div class="section-head"><div><div class="eyebrow">Longitudinal record</div><h2 id="history-title">The ledger grows forward, never backward.</h2></div><p>As new ITV7 cards are prospectively frozen and settled, this table expands automatically. The same mechanism can later support football and market prediction modules without weakening the anti-hindsight contract.</p></div>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Date</th><th>Coverage</th><th>Frozen wins</th><th>Baseline wins</th><th>Shadow wins</th><th>Baseline log loss</th><th>Shadow log loss</th></tr></thead>
+          <tbody data-recent-cards><tr><td colspan="7">Loading longitudinal record…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="shell split">
+      <article class="panel"><div class="eyebrow">What counts</div><h2 style="font-size:clamp(2rem,4vw,3.4rem)">A race is evidence. A bet slip is packaging.</h2><p>A losing accumulator can contain useful individual forecasts; a winning accumulator can contain poorly calibrated probabilities. The project therefore evaluates the forecast system race-by-race and keeps wagering structures outside the core score.</p></article>
+      <article class="panel panel-dark"><div class="eyebrow">Retuning gate</div><div class="quote-number" data-metric="threshold">50</div><h3>completed ITV7 cards before performance-driven retuning.</h3><p>Engineering fixes, leakage fixes and data-quality corrections can happen immediately. Performance-driven weight changes wait for a meaningful forward sample.</p><div class="progress" data-retuning-progress><span></span></div></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and not wagering instructions.</p></div><div class="footer-links"><strong>Explore</strong><a href="index.html">Overview</a><a href="methodology.html">Methodology</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/PREDICTIONS" rel="noopener">Repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Prospective evidence before retrospective certainty.</span></div></div></footer>
+</body>
+</html>

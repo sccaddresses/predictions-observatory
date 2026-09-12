@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Methodology for SCC PREDICTIONS: point-in-time data capture, independent models, frozen forecasts, market separation, prospective evaluation and retuning governance.">
+  <title>Methodology — SCC PREDICTIONS</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="shell nav-wrap"><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>by SCC Nexus</small></span></a><nav class="nav-links" data-nav-links data-open="false" aria-label="Primary navigation"><a href="index.html">Overview</a><a href="results.html">Evidence ledger</a><a href="methodology.html" aria-current="page">Methodology</a><a href="about.html">Project</a></nav><div style="display:flex;gap:8px;align-items:center"><button class="nav-action" data-theme-toggle type="button" aria-label="Change colour theme">☀</button><button class="nav-action nav-toggle" data-nav-toggle type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div></div></header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="shell">
+      <div class="eyebrow">Methodology & governance</div>
+      <h1>Designed to be wrong honestly.</h1>
+      <p class="lede">A prediction project earns trust by preserving the information state that existed before an event, measuring the forecast after the event, and resisting the temptation to explain away misses once the answer is known.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="shell split">
+      <article class="panel panel-dark">
+        <div class="eyebrow">Core contract</div>
+        <h2 style="font-size:clamp(2.2rem,5vw,4.3rem)">Freeze first. Score later.</h2>
+        <p>Pre-race artefacts retain source timestamps, hashes and model identities. Post-race processing can add results and evaluation, but it does not rewrite the forecast that existed before the event.</p>
+      </article>
+      <article class="panel">
+        <div class="eyebrow">Separation principle</div>
+        <h3>Sporting evidence and market evidence are different layers.</h3>
+        <p>The market-blind model is intended to estimate sporting probability independently. Exchange and bookmaker prices belong to a later comparator layer. That means agreement and disagreement can both be measured rather than market consensus silently leaking into the model.</p>
+        <span class="status-pill">Market remains read-only</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="pipeline-title">
+    <div class="shell">
+      <div class="section-head"><div><div class="eyebrow">Point-in-time pipeline</div><h2 id="pipeline-title">The chain of custody for a forecast.</h2></div><p>The methodology is intentionally event-sourced. Every important state can be reconstructed from stored artefacts rather than memory or retrospective narrative.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-dot">01</div><div><h3>Acquire</h3><p>Racecards and conditions are captured from configured providers with retrieval timestamps. Raw source payloads are stored before feature generation.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">02</div><div><h3>Structure</h3><p>The seven ITV7 legs are identified deterministically. Runner identity, form, official rating, weight, draw, trainer, jockey and provenance remain linked.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">03</div><div><h3>Model independently</h3><p>Frozen SCC judgement, the transparent baseline and Quant Shadow remain distinct model families. A future historical ensemble will also be versioned independently.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">04</div><div><h3>Freeze</h3><p>Pre-event predictions become immutable artefacts. A later change requires a new version and a new forward test, not a corrected past.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">05</div><div><h3>Observe the market</h3><p>When available, read-only market snapshots are captured separately. Model-market probability gaps are diagnostics, not proof of value.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">06</div><div><h3>Settle and score</h3><p>Provider results are matched back to race and runner identifiers. Winners, placings, non-finishes, log loss and Brier score are recorded without silently dropping awkward outcomes.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">07</div><div><h3>Accumulate evidence</h3><p>The public ledger grows prospectively. Only after the predefined evidence threshold does a performance-driven retuning review become appropriate.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="metrics" aria-labelledby="metrics-title">
+    <div class="shell">
+      <div class="section-head"><div><div class="eyebrow">Evaluation metrics</div><h2 id="metrics-title">A winner is useful. A probability is richer.</h2></div><p>Hit rates answer whether the top selection won. Probability scores ask whether the entire field distribution was sensible — including how confidently the model was wrong.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">1</div><h3>Winner hit</h3><p>The easiest measure to understand: did the model's selected runner win? Useful, but it discards almost all of the probability information.</p></article>
+        <article class="feature-card"><div class="feature-icon">3</div><h3>Top-three finish</h3><p>A secondary ranking measure that captures near-misses without pretending a placing is the same thing as a win.</p></article>
+        <article class="feature-card"><div class="feature-icon">ln</div><h3>Multiclass log loss</h3><p>Rewards probability placed on the actual winner and punishes excessive confidence in horses that lose. Lower is better.</p></article>
+        <article class="feature-card"><div class="feature-icon">B²</div><h3>Multiclass Brier score</h3><p>Measures squared error across the full field probability vector. Lower is better and calibration matters.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="shell callout">
+      <div class="eyebrow">Governance threshold</div>
+      <h2>One card can expose a bug. It cannot justify performance chasing.</h2>
+      <p class="lede">The default gate is <strong>50 completed ITV7 cards / 350 race legs</strong> before a planned performance-driven retuning review. Engineering fixes, data-quality fixes and leakage corrections are allowed earlier because they protect validity rather than chase the last result.</p>
+      <div class="progress" data-retuning-progress aria-label="Progress toward retuning threshold"><span></span></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="inputs-title">
+    <div class="shell">
+      <div class="section-head"><div><div class="eyebrow">Feature roadmap</div><h2 id="inputs-title">From simple signals toward racing context.</h2></div><p>The current models are intentionally labelled experimental or provisional. The roadmap favours stronger data and walk-forward validation over false precision.</p></div>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Layer</th><th>Examples</th><th>Role</th><th>Boundary</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Horse evidence</strong></td><td>Official rating, recent form, weight, age, recency, pedigree</td><td>Core sporting strength</td><td>Only data known pre-race</td></tr>
+            <tr><td><strong>Course DNA</strong></td><td>Direction, bends, gradients, straight length, draw interaction</td><td>Contextual suitability</td><td>Historical estimates must be out-of-sample</td></tr>
+            <tr><td><strong>Race shape</strong></td><td>Pace style, pressure, traffic, likely positioning</td><td>Scenario generation</td><td>Watcher observations retain provenance</td></tr>
+            <tr><td><strong>Human engine</strong></td><td>Trainer × course, jockey × course, horse × jockey</td><td>Connection effects</td><td>Shrink small samples</td></tr>
+            <tr><td><strong>Weather</strong></td><td>Rainfall, wind speed/direction, temperature, going evolution</td><td>Conditions adjustment</td><td>Timestamp observations</td></tr>
+            <tr><td><strong>Market</strong></td><td>Exchange probability, rank, best back/lay, volume</td><td>Comparator / discrepancy layer</td><td>Excluded from market-blind model inputs</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight" aria-labelledby="principles-title"><div class="shell"><div class="section-head"><div><div class="eyebrow">Non-negotiables</div><h2 id="principles-title">What the project will keep doing.</h2></div><p>The public website reads these principles from the same data build that publishes the model ledger.</p></div><div class="principles" data-principles></div></div></section>
+</main>
+
+<footer class="site-footer"><div class="shell"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>PREDICTIONS<small>Search · Corroborate · Communicate</small></span></a><p class="tiny" style="max-width:46ch;margin-top:16px">Research and entertainment project. Forecasts are uncertain and are not financial or wagering advice.</p></div><div class="footer-links"><strong>Explore</strong><a href="results.html">Evidence ledger</a><a href="index.html">Overview</a><a href="about.html">Project</a></div><div class="footer-links"><strong>Network</strong><a href="https://sccnexus.co.uk/" rel="noopener">SCC Nexus</a><a href="https://github.com/sccaddresses/PREDICTIONS" rel="noopener">Repository</a></div></div><div class="footer-bottom"><span>© <span data-year></span> SCC PREDICTIONS</span><span>Method before mythology.</span></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sccaddresses.github.io/PREDICTIONS/sitemap.xml

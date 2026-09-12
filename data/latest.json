@@ -1,0 +1,303 @@
+{
+  "generated_at_utc": "2026-09-12T09:46:50.478474+00:00",
+  "latest_card": {
+    "date": "2026-08-22",
+    "races": [
+      {
+        "course": "York",
+        "leg": 1,
+        "models": {
+          "frozen_scc": null,
+          "quant_shadow": null,
+          "transparent_baseline": null
+        },
+        "off_time": "13:50",
+        "race_name": "Sky Bet Strensall Stakes (Group 3)",
+        "winner": null
+      },
+      {
+        "course": "Chester",
+        "leg": 2,
+        "models": {
+          "frozen_scc": null,
+          "quant_shadow": null,
+          "transparent_baseline": null
+        },
+        "off_time": "14:05",
+        "race_name": "Virgin Bet Supports Safe Gambling Handicap Stakes",
+        "winner": null
+      },
+      {
+        "course": "York",
+        "leg": 3,
+        "models": {
+          "frozen_scc": null,
+          "quant_shadow": null,
+          "transparent_baseline": null
+        },
+        "off_time": "14:25",
+        "race_name": "Sky Bet Melrose Handicap Stakes (Heritage Handicap) (GBBPlus Race)",
+        "winner": null
+      },
+      {
+        "course": "Chester",
+        "leg": 4,
+        "models": {
+          "frozen_scc": {
+            "finish_position": 2,
+            "label": "Frozen SCC",
+            "non_finish": false,
+            "result_code": "2",
+            "selection": "By The Book",
+            "top3_hit": true,
+            "winner_hit": false,
+            "winner_probability": null
+          },
+          "quant_shadow": {
+            "finish_position": null,
+            "label": "Quant Shadow",
+            "non_finish": true,
+            "result_code": "PU",
+            "selection": "Lazy Griff",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": 0.02075
+          },
+          "transparent_baseline": {
+            "finish_position": null,
+            "label": "Transparent baseline",
+            "non_finish": true,
+            "result_code": "PU",
+            "selection": "Lazy Griff",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": 0.1197580165410803
+          }
+        },
+        "off_time": "2:40",
+        "race_name": "Virgin Bet Chester Stakes (Listed Race)",
+        "winner": "Midak (FR)"
+      },
+      {
+        "course": "York",
+        "leg": 5,
+        "models": {
+          "frozen_scc": {
+            "finish_position": 1,
+            "label": "Frozen SCC",
+            "non_finish": false,
+            "result_code": "1",
+            "selection": "Notable Speech",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": null
+          },
+          "quant_shadow": {
+            "finish_position": 1,
+            "label": "Quant Shadow",
+            "non_finish": false,
+            "result_code": "1",
+            "selection": "Notable Speech",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.33985
+          },
+          "transparent_baseline": {
+            "finish_position": 1,
+            "label": "Transparent baseline",
+            "non_finish": false,
+            "result_code": "1",
+            "selection": "Notable Speech",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.09357746174234541
+          }
+        },
+        "off_time": "3:00",
+        "race_name": "Sky Bet City Of York Stakes (Group 1)",
+        "winner": "Notable Speech (GB)"
+      },
+      {
+        "course": "York",
+        "leg": 6,
+        "models": {
+          "frozen_scc": {
+            "finish_position": 8,
+            "label": "Frozen SCC",
+            "non_finish": false,
+            "result_code": "8",
+            "selection": "Klassleader",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": null
+          },
+          "quant_shadow": {
+            "finish_position": 3,
+            "label": "Quant Shadow",
+            "non_finish": false,
+            "result_code": "3",
+            "selection": "Opportunity",
+            "top3_hit": true,
+            "winner_hit": false,
+            "winner_probability": 0.1366
+          },
+          "transparent_baseline": {
+            "finish_position": 3,
+            "label": "Transparent baseline",
+            "non_finish": false,
+            "result_code": "3",
+            "selection": "Opportunity",
+            "top3_hit": true,
+            "winner_hit": false,
+            "winner_probability": 0.05757369336996311
+          }
+        },
+        "off_time": "3:35",
+        "race_name": "Sky Bet Ebor Handicap Stakes (Heritage Handicap) (GBBplus Race)",
+        "winner": "Daiquiri Bay (GB)"
+      },
+      {
+        "course": "York",
+        "leg": 7,
+        "models": {
+          "frozen_scc": {
+            "finish_position": 4,
+            "label": "Frozen SCC",
+            "non_finish": false,
+            "result_code": "4",
+            "selection": "Dance In The Storm",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": null
+          },
+          "quant_shadow": {
+            "finish_position": 17,
+            "label": "Quant Shadow",
+            "non_finish": false,
+            "result_code": "17",
+            "selection": "Red Spells Danger",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": 0.11525
+          },
+          "transparent_baseline": {
+            "finish_position": 17,
+            "label": "Transparent baseline",
+            "non_finish": false,
+            "result_code": "17",
+            "selection": "Red Spells Danger",
+            "top3_hit": false,
+            "winner_hit": false,
+            "winner_probability": 0.06113974053156932
+          }
+        },
+        "off_time": "4:10",
+        "race_name": "Sky Bet Constantine Handicap Stakes (Heritage Handicap)",
+        "winner": "Sondad (GB)"
+      }
+    ],
+    "source": {
+      "endpoint": "/v1/results/today/free",
+      "payload_sha256": "9613d7c1ca6de1582280038221ab4276d2ba47278b77984611cf73cf1a39eb44",
+      "provider": "The Racing API",
+      "retrieved_at_utc": "2026-08-22T21:48:01.319879+00:00"
+    }
+  },
+  "ledger": {
+    "cards_evaluated": 1,
+    "complete_cards": 0,
+    "first_card": "2026-08-22",
+    "latest_card": "2026-08-22",
+    "race_legs_evaluated": 4,
+    "retuning_threshold_cards": 50,
+    "retuning_threshold_legs": 350
+  },
+  "models": {
+    "frozen_scc": {
+      "label": "Frozen SCC",
+      "legs_scored": 4,
+      "mean_brier_score": null,
+      "mean_finish_position": 3.75,
+      "mean_log_loss": null,
+      "non_finishes": 0,
+      "top3_finishes": 2,
+      "top3_rate": 0.5,
+      "win_rate": 0.25,
+      "wins": 1
+    },
+    "quant_shadow": {
+      "label": "Quant Shadow",
+      "legs_scored": 4,
+      "mean_brier_score": 0.894425,
+      "mean_finish_position": 7,
+      "mean_log_loss": 2.276452,
+      "non_finishes": 1,
+      "top3_finishes": 2,
+      "top3_rate": 0.5,
+      "win_rate": 0.25,
+      "wins": 1
+    },
+    "transparent_baseline": {
+      "label": "Transparent baseline",
+      "legs_scored": 4,
+      "mean_brier_score": 0.912777,
+      "mean_finish_position": 7,
+      "mean_log_loss": 2.535133,
+      "non_finishes": 1,
+      "top3_finishes": 2,
+      "top3_rate": 0.5,
+      "win_rate": 0.25,
+      "wins": 1
+    }
+  },
+  "principles": [
+    "Freeze before outcome",
+    "Separate model from market",
+    "Score every race",
+    "Keep missing data visible",
+    "Retune only after sufficient forward evidence"
+  ],
+  "project": {
+    "discipline": "Prospective prediction research",
+    "latest_frozen_prediction": "2026-09-12",
+    "latest_racecard_snapshot": "2026-09-12",
+    "latest_results_snapshot": "2026-09-12",
+    "name": "SCC PREDICTIONS",
+    "status": "RESEARCH / FORWARD VALIDATION"
+  },
+  "recent_cards": [
+    {
+      "complete": false,
+      "completed_results": 4,
+      "date": "2026-08-22",
+      "itv7_legs": 7,
+      "models": {
+        "frozen_scc": {
+          "label": "Frozen SCC",
+          "legs_scored": 4,
+          "mean_brier_score": null,
+          "mean_log_loss": null,
+          "top3_finishes": 2,
+          "wins": 1
+        },
+        "quant_shadow": {
+          "label": "Quant Shadow",
+          "legs_scored": 4,
+          "mean_brier_score": 0.894425,
+          "mean_log_loss": 2.276452,
+          "top3_finishes": 2,
+          "wins": 1
+        },
+        "transparent_baseline": {
+          "label": "Transparent baseline",
+          "legs_scored": 4,
+          "mean_brier_score": 0.912777,
+          "mean_log_loss": 2.535133,
+          "top3_finishes": 2,
+          "wins": 1
+        }
+      }
+    }
+  ],
+  "schema_version": "1.0"
+}

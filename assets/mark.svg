@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">SCC PREDICTIONS mark</title>
+  <desc id="desc">Three rising probability traces inside a rounded square.</desc>
+  <rect x="3" y="3" width="58" height="58" rx="17" fill="#101a2a"/>
+  <path d="M14 43L25 31L34 37L49 20" fill="none" stroke="#73f7ce" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14" cy="43" r="3.3" fill="#ffffff"/>
+  <circle cx="25" cy="31" r="3.3" fill="#ffffff"/>
+  <circle cx="34" cy="37" r="3.3" fill="#ffffff"/>
+  <circle cx="49" cy="20" r="3.3" fill="#ffd166"/>
+</svg>

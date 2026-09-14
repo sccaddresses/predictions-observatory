@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-14T18:25:00+00:00",
+  "scope": "THE_RACING_API_DAILY_FEED",
+  "current": {
+    "date": "2026-09-14",
+    "status": "LATE_RESEARCH_ONLY",
+    "prospective_freeze": false,
+    "generated_at_utc": "2026-09-14T13:08:45.052632+00:00",
+    "first_off_utc": "2026-09-14T09:20:00+00:00",
+    "races_reviewed": 44,
+    "official_selections": 0,
+    "abstentions": 44,
+    "completed_results": 0,
+    "evaluation_complete": false,
+    "settled_selections": 0,
+    "wins": 0,
+    "missing_winner_sp": 0,
+    "units_staked_with_known_return": 0,
+    "net_units": null,
+    "roi": null,
+    "selections": []
+  },
+  "history": [
+    {
+      "date": "2026-09-14",
+      "status": "LATE_RESEARCH_ONLY",
+      "prospective_freeze": false,
+      "generated_at_utc": "2026-09-14T13:08:45.052632+00:00",
+      "first_off_utc": "2026-09-14T09:20:00+00:00",
+      "races_reviewed": 44,
+      "official_selections": 0,
+      "abstentions": 44,
+      "completed_results": 0,
+      "evaluation_complete": false,
+      "settled_selections": 0,
+      "wins": 0,
+      "missing_winner_sp": 0,
+      "units_staked_with_known_return": 0,
+      "net_units": null,
+      "roi": null
+    }
+  ],
+  "weekly": [
+    {
+      "period": "2026-W38",
+      "days_recorded": 1,
+      "prospectively_frozen_days": 0,
+      "late_or_invalid_days": 1,
+      "official_selections": 0,
+      "settled_selections": 0,
+      "wins": 0,
+      "strike_rate": null,
+      "units_staked_with_known_return": 0,
+      "missing_winner_sp": 0,
+      "net_units": null,
+      "roi": null
+    }
+  ],
+  "monthly": [
+    {
+      "period": "2026-09",
+      "days_recorded": 1,
+      "prospectively_frozen_days": 0,
+      "late_or_invalid_days": 1,
+      "official_selections": 0,
+      "settled_selections": 0,
+      "wins": 0,
+      "strike_rate": null,
+      "units_staked_with_known_return": 0,
+      "missing_winner_sp": 0,
+      "net_units": null,
+      "roi": null
+    }
+  ],
+  "integrity": {
+    "anti_hindsight": true,
+    "official_only_when_prospectively_frozen": true,
+    "late_cards_count_as_zero_official_selections": true,
+    "shadow_never_rewrites_official": true
+  }
+}

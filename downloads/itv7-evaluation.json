@@ -1,0 +1,381 @@
+{
+  "coverage": {
+    "complete": true,
+    "completed_results": 7,
+    "itv7_legs": 7,
+    "missing_result_legs": []
+  },
+  "date": "2026-09-12",
+  "evaluation_policy": {
+    "anti_hindsight": "Frozen predictions are never rewritten after results are known.",
+    "betting_returns_role": "SEPARATE_DOWNSTREAM_EXPERIMENT",
+    "minimum_cards_before_retuning": 50,
+    "primary_pick_metrics": [
+      "winner_hit",
+      "top3_hit",
+      "finish_position",
+      "non_finish"
+    ],
+    "probability_metrics": [
+      "multiclass_log_loss",
+      "multiclass_brier_score"
+    ]
+  },
+  "generated_at_utc": "2026-09-14T18:32:07.211732+00:00",
+  "legs": [
+    {
+      "baseline": {
+        "brier_score": 0.7700385865073561,
+        "finish_position": 4,
+        "log_loss": 1.5289900148187487,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "4",
+        "selection": "Gentle Hurricane",
+        "selection_matched": true,
+        "sp": "5/1",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.21675447560917543
+      },
+      "course": "Doncaster",
+      "frozen": null,
+      "leg": 1,
+      "off_time": "13:45",
+      "race_id": "rac_32297120973",
+      "race_name": "Betfred Champagne Stakes (Group 2)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 0.7665594,
+        "finish_position": 4,
+        "log_loss": 1.363163943731036,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "4",
+        "selection": "Gentle Hurricane",
+        "selection_matched": true,
+        "sp": "5/1",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.25585
+      },
+      "winner": "Desert Castle",
+      "winner_sp": "1/1F"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.9409536106345416,
+        "finish_position": null,
+        "log_loss": 2.520073738831886,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "NR",
+        "selection": "Cranachan",
+        "selection_matched": false,
+        "sp": null,
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.0804536739708575
+      },
+      "course": "Chester",
+      "frozen": null,
+      "leg": 2,
+      "off_time": "14:05",
+      "race_id": "rac_32297345665",
+      "race_name": "Virgin Bet Supports Safe Gambling Watergate Cup (Class 2 Heritage Handicap) (gbbplus Race)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 1.29471255,
+        "finish_position": null,
+        "log_loss": 4.240527072400182,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "NR",
+        "selection": "Cranachan",
+        "selection_matched": false,
+        "sp": null,
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.0144
+      },
+      "winner": "Pole Star",
+      "winner_sp": "11/1"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.9415800184097678,
+        "finish_position": 10,
+        "log_loss": 2.92421788183579,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "10",
+        "selection": "Getreadytorumble",
+        "selection_matched": true,
+        "sp": "17/2",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.05370668046091452
+      },
+      "course": "Doncaster",
+      "frozen": null,
+      "leg": 3,
+      "off_time": "14:20",
+      "race_id": "rac_32297128721",
+      "race_name": "Betfred Portland (Class 2 Heritage Handicap)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 0.9528247749999997,
+        "finish_position": 21,
+        "log_loss": 2.7105533313203285,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "21",
+        "selection": "Dubai Bling",
+        "selection_matched": true,
+        "sp": "25/1",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.0665
+      },
+      "winner": "Air Force One",
+      "winner_sp": "11/2"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.7857217732791656,
+        "finish_position": 1,
+        "log_loss": 1.7633991437635468,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "1",
+        "selection": "More Thunder",
+        "selection_matched": true,
+        "sp": "4/5F",
+        "top3_hit": true,
+        "winner_hit": true,
+        "winner_probability": 0.17146105139045345
+      },
+      "course": "Doncaster",
+      "frozen": null,
+      "leg": 4,
+      "off_time": "14:55",
+      "race_id": "rac_32297122910",
+      "race_name": "Betfred Park Stakes (Group 2)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 0.295870795,
+        "finish_position": 1,
+        "log_loss": 0.6882591464871695,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "1",
+        "selection": "More Thunder",
+        "selection_matched": true,
+        "sp": "4/5F",
+        "top3_hit": true,
+        "winner_hit": true,
+        "winner_probability": 0.50245
+      },
+      "winner": "More Thunder",
+      "winner_sp": "4/5F"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.9601489697839468,
+        "finish_position": 9,
+        "log_loss": 2.642248366052945,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "9",
+        "selection": "Christmas Day",
+        "selection_matched": true,
+        "sp": "7/4F",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.07120100353627398
+      },
+      "course": "Doncaster",
+      "frozen": null,
+      "leg": 5,
+      "off_time": "15:35",
+      "race_id": "rac_32297130658",
+      "race_name": "Betfred St Leger Stakes (Group 1)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 1.3886507499999998,
+        "finish_position": 9,
+        "log_loss": 6.406979991069647,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "9",
+        "selection": "Christmas Day",
+        "selection_matched": true,
+        "sp": "7/4F",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.00165
+      },
+      "winner": "Highwayman",
+      "winner_sp": "11/1"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.7258127997232644,
+        "finish_position": 1,
+        "log_loss": 1.6016597197754778,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "1",
+        "selection": "Blue Bolt",
+        "selection_matched": true,
+        "sp": "4/5F",
+        "top3_hit": true,
+        "winner_hit": true,
+        "winner_probability": 0.20156170427647258
+      },
+      "course": "Leopardstown",
+      "frozen": null,
+      "leg": 6,
+      "off_time": "15:55",
+      "race_id": "rac_12008308",
+      "race_name": "Coolmore America 'Justify' Matron Stakes (Group 1)",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 0.23084952000000003,
+        "finish_position": 1,
+        "log_loss": 0.5177663214453219,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "1",
+        "selection": "Blue Bolt",
+        "selection_matched": true,
+        "sp": "4/5F",
+        "top3_hit": true,
+        "winner_hit": true,
+        "winner_probability": 0.59585
+      },
+      "winner": "Blue Bolt",
+      "winner_sp": "4/5F"
+    },
+    {
+      "baseline": {
+        "brier_score": 0.9514687904476058,
+        "finish_position": 9,
+        "log_loss": 2.8839394961402594,
+        "model": "transparent-baseline",
+        "non_finish": false,
+        "result_code": "9",
+        "selection": "Blue Courvoisier",
+        "selection_matched": true,
+        "sp": "15/2",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.05591405517653859
+      },
+      "course": "Doncaster",
+      "frozen": null,
+      "leg": 7,
+      "off_time": "16:15",
+      "race_id": "rac_32297132595",
+      "race_name": "Pertemps Network Handicap Stakes",
+      "result_status": "COMPLETE",
+      "shadow": {
+        "brier_score": 1.12516713,
+        "finish_position": 9,
+        "log_loss": 4.240527072400182,
+        "model": "quant-shadow",
+        "non_finish": false,
+        "result_code": "9",
+        "selection": "Blue Courvoisier",
+        "selection_matched": true,
+        "sp": "15/2",
+        "top3_hit": false,
+        "winner_hit": false,
+        "winner_probability": 0.0144
+      },
+      "winner": "Scoville",
+      "winner_sp": "5/1"
+    }
+  ],
+  "metrics": {
+    "frozen_scc": {
+      "legs_scored": 0,
+      "mean_brier_score": null,
+      "mean_finish_position": null,
+      "mean_log_loss": null,
+      "non_finishes": 0,
+      "top3_finishes": 0,
+      "top3_rate": null,
+      "win_rate": null,
+      "wins": 0
+    },
+    "quant_shadow": {
+      "legs_scored": 6,
+      "mean_brier_score": 0.79332,
+      "mean_finish_position": 7.5,
+      "mean_log_loss": 2.654542,
+      "non_finishes": 0,
+      "top3_finishes": 2,
+      "top3_rate": 0.3333333333333333,
+      "win_rate": 0.3333333333333333,
+      "wins": 2
+    },
+    "transparent_baseline": {
+      "legs_scored": 6,
+      "mean_brier_score": 0.855795,
+      "mean_finish_position": 5.667,
+      "mean_log_loss": 2.224076,
+      "non_finishes": 0,
+      "top3_finishes": 2,
+      "top3_rate": 0.3333333333333333,
+      "win_rate": 0.3333333333333333,
+      "wins": 2
+    }
+  },
+  "report_type": "ITV7_POST_RACE_EVALUATION",
+  "results_source": {
+    "backfill": true,
+    "endpoint": "public result pages",
+    "payload_sha256": null,
+    "provenance": [
+      {
+        "race": "13:45 Doncaster",
+        "source": "Racing Post",
+        "url": "https://www.racingpost.com/results/15/doncaster/2026-09-12/925065/"
+      },
+      {
+        "race": "14:05 Chester",
+        "source": "Racing Post",
+        "url": "https://www.racingpost.com/results/13/chester/2026-09-12/926683/"
+      },
+      {
+        "race": "14:20 Doncaster",
+        "source": "Racing Post",
+        "url": "https://www.racingpost.com/results/15/doncaster/2026-09-12/926652/"
+      },
+      {
+        "race": "14:55 Doncaster",
+        "source": "Racing TV",
+        "url": "https://www.racingtv.com/results/2026-09-12/doncaster/1455"
+      },
+      {
+        "race": "15:35 Doncaster",
+        "source": "Racing TV",
+        "url": "https://www.racingtv.com/results/2026-09-12/doncaster/1535"
+      },
+      {
+        "race": "15:55 Leopardstown",
+        "source": "Racing Post",
+        "url": "https://www.racingpost.com/news/reports/star-filly-blue-bolt-continues-stunning-season-to-land-group-1-hat-trick-aGuww4p0DRJ9/"
+      },
+      {
+        "race": "16:15 Doncaster",
+        "source": "Racing TV",
+        "url": "https://www.racingtv.com/results/2026-09-12/doncaster/1615"
+      }
+    ],
+    "provider": "SCC corroborated public results backfill",
+    "retrieved_at_utc": "2026-09-14T18:30:00+00:00"
+  },
+  "schema_version": "1.1"
+}

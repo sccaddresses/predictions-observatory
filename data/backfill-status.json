@@ -1,0 +1,7 @@
+{
+  "date": "2026-09-12",
+  "generated_at_utc": "2026-09-14T18:32:07.588338+00:00",
+  "note": "Historical result backfill is provenance-labelled and never rewrites frozen pre-race predictions.",
+  "schema_version": "1.0",
+  "status": "CORROBORATED_BACKFILL_VALIDATED"
+}

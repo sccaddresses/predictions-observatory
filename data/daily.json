@@ -1,66 +1,43 @@
 {
   "current": {
-    "abstentions": 60,
+    "abstentions": 70,
     "completed_results": 0,
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "evaluation_complete": false,
-    "first_off_utc": "2026-09-18T08:53:00+00:00",
-    "generated_at_utc": "2026-09-17T23:07:50.969834+00:00",
+    "first_off_utc": "2026-09-19T08:44:00+00:00",
+    "generated_at_utc": "2026-09-19T09:00:14.751609+00:00",
     "missing_winner_sp": 0,
     "net_units": null,
-    "official_selections": 4,
-    "prospective_freeze": true,
-    "races_reviewed": 64,
+    "official_selections": 0,
+    "prospective_freeze": false,
+    "races_reviewed": 70,
     "roi": null,
-    "selections": [
-      {
-        "course": "Saint-Cloud",
-        "leg": 1,
-        "model_probability": 0.2232164389302372,
-        "off_time": "14:28",
-        "race_name": "Prix A Tempo",
-        "selection": "Bonnie Moon",
-        "shadow_margin_pct": 36.77,
-        "shadow_selection": "Bonnie Moon"
-      },
-      {
-        "course": "Ayr",
-        "leg": 2,
-        "model_probability": 0.1926987978727688,
-        "off_time": "13:20",
-        "race_name": "Ladbrokes 'Bet £5 Get £30 New Customer Offer' Fillies' Nursery Handicap Stakes",
-        "selection": "Missouri Waltz",
-        "shadow_margin_pct": 34.92,
-        "shadow_selection": "Missouri Waltz"
-      },
-      {
-        "course": "Newton Abbot",
-        "leg": 3,
-        "model_probability": 0.28812865944783506,
-        "off_time": "14:37",
-        "race_name": "Southlands Care Home Mares' Novices' Hurdle Race (GBB Race)",
-        "selection": "Fine Thing",
-        "shadow_margin_pct": 81.26,
-        "shadow_selection": "Fine Thing"
-      },
-      {
-        "course": "Wolverhampton (AW)",
-        "leg": 4,
-        "model_probability": 0.22524408947465652,
-        "off_time": "19:45",
-        "race_name": "Black Country Mental Health 50th Anniversary Handicap Stakes",
-        "selection": "Niffler",
-        "shadow_margin_pct": 8.07,
-        "shadow_selection": "Niffler"
-      }
-    ],
+    "selections": [],
     "settled_selections": 0,
-    "status": "FROZEN_PRE_RACE",
+    "status": "LATE_RESEARCH_ONLY",
     "units_staked_with_known_return": 0,
     "wins": 0
   },
-  "generated_at_utc": "2026-09-18T11:36:27.317056+00:00",
+  "generated_at_utc": "2026-09-19T11:19:06.568089+00:00",
   "history": [
+    {
+      "abstentions": 70,
+      "completed_results": 0,
+      "date": "2026-09-19",
+      "evaluation_complete": false,
+      "first_off_utc": "2026-09-19T08:44:00+00:00",
+      "generated_at_utc": "2026-09-19T09:00:14.751609+00:00",
+      "missing_winner_sp": 0,
+      "net_units": null,
+      "official_selections": 0,
+      "prospective_freeze": false,
+      "races_reviewed": 70,
+      "roi": null,
+      "settled_selections": 0,
+      "status": "LATE_RESEARCH_ONLY",
+      "units_staked_with_known_return": 0,
+      "wins": 0
+    },
     {
       "abstentions": 60,
       "completed_results": 0,
@@ -160,8 +137,8 @@
   },
   "monthly": [
     {
-      "days_recorded": 5,
-      "late_or_invalid_days": 1,
+      "days_recorded": 6,
+      "late_or_invalid_days": 2,
       "missing_winner_sp": 0,
       "net_units": null,
       "official_selections": 16,
@@ -178,8 +155,8 @@
   "scope": "THE_RACING_API_DAILY_FEED",
   "weekly": [
     {
-      "days_recorded": 5,
-      "late_or_invalid_days": 1,
+      "days_recorded": 6,
+      "late_or_invalid_days": 2,
       "missing_winner_sp": 0,
       "net_units": null,
       "official_selections": 16,

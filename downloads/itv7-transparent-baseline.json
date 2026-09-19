@@ -1,0 +1,106 @@
+{
+  "competition": "ITV7",
+  "date": "2026-09-19",
+  "first_off_utc": "2026-09-19T12:37:00+00:00",
+  "generated_at_utc": "2026-09-19T12:40:44.616951+00:00",
+  "integrity": {
+    "prospective_freeze": false,
+    "rule": "Do not rewrite after the first ITV7 leg begins; later analysis belongs in post-race evaluation."
+  },
+  "legs": [
+    {
+      "course": "Newbury",
+      "horse_id": "hrs_28013265",
+      "leg": 1,
+      "market_reference_odds": null,
+      "model_probability": 0.14001371077465802,
+      "off": "13:37",
+      "race": "Dubai Duty Free Autumn Cup Handicap Stakes (gbbplus Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 14.0%. Among the strongest official ratings; recent placed form.",
+      "selection": "Roaring Legend"
+    },
+    {
+      "course": "Ayr",
+      "horse_id": "hrs_34470975",
+      "leg": 2,
+      "market_reference_odds": null,
+      "model_probability": 0.18945107061189095,
+      "off": "13:55",
+      "race": "Ladbrokes 'Get Racing Bet Builder Winnings Boosts' Doonside Cup Stakes (Listed Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 18.95%. recent placed form.",
+      "selection": "Grey Cuban"
+    },
+    {
+      "course": "Newbury",
+      "horse_id": "hrs_63810985",
+      "leg": 3,
+      "market_reference_odds": null,
+      "model_probability": 0.2391078715972242,
+      "off": "14:12",
+      "race": "Dubai Duty Free Mill Reef Stakes (Group 2) (In Honour Of Ian Balding)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 23.91%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
+      "selection": "Arapaho Gold"
+    },
+    {
+      "course": "Ayr",
+      "horse_id": "hrs_37354121",
+      "leg": 4,
+      "market_reference_odds": null,
+      "model_probability": 0.05685606420104361,
+      "off": "14:30",
+      "race": "Ladbrokes Ayr Silver Cup Handicap Stakes",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 5.69%. won latest recorded run; race-fit recency window.",
+      "selection": "Deep Havana"
+    },
+    {
+      "course": "Newbury",
+      "horse_id": "hrs_57103431",
+      "leg": 5,
+      "market_reference_odds": null,
+      "model_probability": 0.11627931114749314,
+      "off": "14:47",
+      "race": "Dubai Duty Free Handicap Stakes (gbbplus Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 11.63%. recent placed form; younger profile with scope to progress; race-fit recency window.",
+      "selection": "Balzac"
+    },
+    {
+      "course": "Ayr",
+      "horse_id": "hrs_63811216",
+      "leg": 6,
+      "market_reference_odds": null,
+      "model_probability": 0.18106287283322176,
+      "off": "15:05",
+      "race": "Ladbrokes 'New Customers Get 50/1 Old Firm Offer' Firth Of Clyde (For The Ayrshire Agricultural Challenge Cup) (Group 3)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 18.11%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
+      "selection": "Silent Beauty"
+    },
+    {
+      "course": "Ayr",
+      "horse_id": "hrs_43950984",
+      "leg": 7,
+      "market_reference_odds": null,
+      "model_probability": 0.05818799450289712,
+      "off": "15:40",
+      "race": "Ladbrokes Ayr Gold Cup (Class 2 Heritage Handicap)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 5.82%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
+      "selection": "Tuco Salamanca"
+    }
+  ],
+  "method": {
+    "market_blind": true,
+    "name": "transparent-baseline-v1",
+    "note": "Deterministic structured-data baseline using official rating, recent form, weight, recency, age/progression and a bounded Chester draw prior. It is a research baseline, not a validated betting model."
+  },
+  "model_status": "PROVISIONAL_TRANSPARENT_HEURISTIC",
+  "prediction_id": "itv7-2026-09-19-transparent-baseline-v1",
+  "prospective_freeze": false,
+  "schema_version": "1.0",
+  "source_snapshot": {
+    "endpoint": "/v1/racecards/free",
+    "itv7_manifest": "data/racing_api/2026-09-19/itv7/manifest.json",
+    "payload_sha256": "5d52f35a694813c0920774f61af42515bc21e1875318f442dee88a972fd6f7f8",
+    "provider": "The Racing API",
+    "retrieved_at_utc": "2026-09-19T12:40:43.443339+00:00"
+  },
+  "status": "LATE_RESEARCH_ONLY"
+}

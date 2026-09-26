@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-19",
-  "first_off_utc": "2026-09-19T12:37:00+00:00",
-  "generated_at_utc": "2026-09-19T12:40:45.583269+00:00",
+  "date": "2026-09-26",
+  "first_off_utc": "2026-09-26T12:22:00+00:00",
+  "generated_at_utc": "2026-09-26T11:49:13.097555+00:00",
   "matched_legs": 7,
-  "message": "Model outputs generated after first off and excluded from prospective evidence.",
+  "message": "Seven-leg ITV7 card captured and model outputs frozen.",
   "models": [
     "transparent-baseline-v1",
     "quant-shadow-v1"
   ],
-  "prospective_freeze": false,
+  "prospective_freeze": true,
   "schema_version": "1.0",
-  "state": "LATE_RESEARCH_ONLY"
+  "state": "PREDICTION_FROZEN"
 }

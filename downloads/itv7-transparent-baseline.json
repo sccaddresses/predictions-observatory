@@ -1,89 +1,89 @@
 {
   "competition": "ITV7",
-  "date": "2026-09-19",
-  "first_off_utc": "2026-09-19T12:37:00+00:00",
-  "generated_at_utc": "2026-09-19T12:40:44.616951+00:00",
+  "date": "2026-09-26",
+  "first_off_utc": "2026-09-26T12:22:00+00:00",
+  "generated_at_utc": "2026-09-26T11:49:12.245771+00:00",
   "integrity": {
-    "prospective_freeze": false,
+    "prospective_freeze": true,
     "rule": "Do not rewrite after the first ITV7 leg begins; later analysis belongs in post-race evaluation."
   },
   "legs": [
     {
-      "course": "Newbury",
-      "horse_id": "hrs_28013265",
+      "course": "Newmarket",
+      "horse_id": "hrs_17389056314",
       "leg": 1,
       "market_reference_odds": null,
-      "model_probability": 0.14001371077465802,
-      "off": "13:37",
-      "race": "Dubai Duty Free Autumn Cup Handicap Stakes (gbbplus Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 14.0%. Among the strongest official ratings; recent placed form.",
-      "selection": "Roaring Legend"
+      "model_probability": 0.14693665677649856,
+      "off": "13:22",
+      "race": "British Stallion Studs EBF 'Jersey Lily' Fillies' Nursery Handicap Stakes",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 14.69%. won latest recorded run; race-fit recency window.",
+      "selection": "Polyxena"
     },
     {
-      "course": "Ayr",
-      "horse_id": "hrs_34470975",
+      "course": "Haydock",
+      "horse_id": "hrs_50434279",
       "leg": 2,
       "market_reference_odds": null,
-      "model_probability": 0.18945107061189095,
-      "off": "13:55",
-      "race": "Ladbrokes 'Get Racing Bet Builder Winnings Boosts' Doonside Cup Stakes (Listed Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 18.95%. recent placed form.",
-      "selection": "Grey Cuban"
+      "model_probability": 0.13907663097355843,
+      "off": "13:35",
+      "race": "William Hill Epic Boosts Handicap Stakes",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 13.91%. recent placed form; younger profile with scope to progress; fitness after a long break is a question.",
+      "selection": "Commander's Intent"
     },
     {
-      "course": "Newbury",
-      "horse_id": "hrs_63810985",
+      "course": "Newmarket",
+      "horse_id": "hrs_66527307",
       "leg": 3,
       "market_reference_odds": null,
-      "model_probability": 0.2391078715972242,
-      "off": "14:12",
-      "race": "Dubai Duty Free Mill Reef Stakes (Group 2) (In Honour Of Ian Balding)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 23.91%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
-      "selection": "Arapaho Gold"
+      "model_probability": 0.18424791759990308,
+      "off": "13:55",
+      "race": "Tattersalls Online Royal Lodge Stakes (Group 2)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 18.42%. Among the strongest official ratings; recent placed form; race-fit recency window.",
+      "selection": "Quest For Stars"
     },
     {
-      "course": "Ayr",
-      "horse_id": "hrs_37354121",
+      "course": "Haydock",
+      "horse_id": "hrs_48414100",
       "leg": 4,
       "market_reference_odds": null,
-      "model_probability": 0.05685606420104361,
-      "off": "14:30",
-      "race": "Ladbrokes Ayr Silver Cup Handicap Stakes",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 5.69%. won latest recorded run; race-fit recency window.",
-      "selection": "Deep Havana"
+      "model_probability": 0.13608044647737613,
+      "off": "14:10",
+      "race": "William Hill Best Odds Guaranteed Handicap Stakes",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 13.61%. won latest recorded run; younger profile with scope to progress.",
+      "selection": "Ancient State"
     },
     {
-      "course": "Newbury",
-      "horse_id": "hrs_57103431",
+      "course": "Newmarket",
+      "horse_id": "hrs_64847286",
       "leg": 5,
       "market_reference_odds": null,
-      "model_probability": 0.11627931114749314,
-      "off": "14:47",
-      "race": "Dubai Duty Free Handicap Stakes (gbbplus Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 11.63%. recent placed form; younger profile with scope to progress; race-fit recency window.",
-      "selection": "Balzac"
+      "model_probability": 0.23653460592915249,
+      "off": "14:27",
+      "race": "Tattersalls Sceptre Sessions Cheveley Park Stakes (Group 1)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 23.65%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
+      "selection": "Senorita Bonita"
     },
     {
-      "course": "Ayr",
-      "horse_id": "hrs_63811216",
+      "course": "Newmarket",
+      "horse_id": "hrs_65414734",
       "leg": 6,
       "market_reference_odds": null,
-      "model_probability": 0.18106287283322176,
-      "off": "15:05",
-      "race": "Ladbrokes 'New Customers Get 50/1 Old Firm Offer' Firth Of Clyde (For The Ayrshire Agricultural Challenge Cup) (Group 3)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 18.11%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
-      "selection": "Silent Beauty"
+      "model_probability": 0.1780284541385476,
+      "off": "15:00",
+      "race": "Tattersalls Middle Park Stakes (Group 1)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 17.8%. Among the strongest official ratings; won latest recorded run.",
+      "selection": "Inner City Blues"
     },
     {
-      "course": "Ayr",
-      "horse_id": "hrs_43950984",
+      "course": "Newmarket",
+      "horse_id": "hrs_52830960",
       "leg": 7,
       "market_reference_odds": null,
-      "model_probability": 0.05818799450289712,
+      "model_probability": 0.05638712293016973,
       "off": "15:40",
-      "race": "Ladbrokes Ayr Gold Cup (Class 2 Heritage Handicap)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 5.82%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
-      "selection": "Tuco Salamanca"
+      "race": "Bet365 Cambridgeshire (Class 2 Heritage Handicap)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 5.64%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
+      "selection": "Bourbon Blues"
     }
   ],
   "method": {
@@ -92,15 +92,15 @@
     "note": "Deterministic structured-data baseline using official rating, recent form, weight, recency, age/progression and a bounded Chester draw prior. It is a research baseline, not a validated betting model."
   },
   "model_status": "PROVISIONAL_TRANSPARENT_HEURISTIC",
-  "prediction_id": "itv7-2026-09-19-transparent-baseline-v1",
-  "prospective_freeze": false,
+  "prediction_id": "itv7-2026-09-26-transparent-baseline-v1",
+  "prospective_freeze": true,
   "schema_version": "1.0",
   "source_snapshot": {
     "endpoint": "/v1/racecards/free",
-    "itv7_manifest": "data/racing_api/2026-09-19/itv7/manifest.json",
-    "payload_sha256": "5d52f35a694813c0920774f61af42515bc21e1875318f442dee88a972fd6f7f8",
+    "itv7_manifest": "data/racing_api/2026-09-26/itv7/manifest.json",
+    "payload_sha256": "1ae1a80456cb585f9ca28f23822b96e733eb11c7f3fda2c1186639b66c2c5822",
     "provider": "The Racing API",
-    "retrieved_at_utc": "2026-09-19T12:40:43.443339+00:00"
+    "retrieved_at_utc": "2026-09-26T11:49:10.970932+00:00"
   },
-  "status": "LATE_RESEARCH_ONLY"
+  "status": "FROZEN_PRE_RACE"
 }

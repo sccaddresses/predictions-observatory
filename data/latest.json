@@ -95,41 +95,41 @@
     "method_note": "Deterministic structured-data baseline using official rating, recent form, weight, recency, age/progression and a bounded Chester draw prior. It is a research baseline, not a validated betting model.",
     "model_status": "PROVISIONAL_TRANSPARENT_HEURISTIC",
     "prospective_freeze": true,
-    "state": "PREDICTION_FROZEN"
+    "state": "EVALUATED"
   },
-  "generated_at_utc": "2026-10-10T13:42:27.892095+00:00",
+  "generated_at_utc": "2026-10-10T19:15:28.684243+00:00",
   "latest_card": {
-    "date": "2026-10-03",
+    "date": "2026-10-10",
     "races": [
       {
-        "course": "Ascot",
+        "course": "York",
         "leg": 1,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 11,
+            "finish_position": 2,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "11",
-            "selection": "Lifeplan",
-            "top3_hit": false,
+            "result_code": "2",
+            "selection": "Agamemnon",
+            "top3_hit": true,
             "winner_hit": false,
-            "winner_probability": 0.0273
+            "winner_probability": 0.21195
           },
           "transparent_baseline": {
-            "finish_position": 11,
+            "finish_position": 2,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "11",
-            "selection": "Lifeplan",
-            "top3_hit": false,
+            "result_code": "2",
+            "selection": "Agamemnon",
+            "top3_hit": true,
             "winner_hit": false,
-            "winner_probability": 0.08866263797668654
+            "winner_probability": 0.12505155119316164
           }
         },
-        "off_time": "1:50",
-        "race_name": "Betmgm Rous Stakes (Listed Race)",
-        "winner": "Air Force One (IRE)"
+        "off_time": "1:30",
+        "race_name": "Sky Bet Rockingham Stakes (Listed Race)",
+        "winner": "Cut A Dash (GB)"
       },
       {
         "course": "Newmarket",
@@ -137,192 +137,192 @@
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 2,
+            "finish_position": 3,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "2",
-            "selection": "Evanesco",
+            "result_code": "3",
+            "selection": "Apulia Bay",
             "top3_hit": true,
             "winner_hit": false,
-            "winner_probability": 0.05135
+            "winner_probability": 0.11095
           },
           "transparent_baseline": {
-            "finish_position": 2,
+            "finish_position": 3,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "2",
-            "selection": "Evanesco",
+            "result_code": "3",
+            "selection": "Apulia Bay",
             "top3_hit": true,
             "winner_hit": false,
-            "winner_probability": 0.11358064709086671
+            "winner_probability": 0.15550975482158075
           }
         },
-        "off_time": "2:10",
-        "race_name": "Hkjc World Pool Handicap Stakes (gbbplus Race)",
-        "winner": "Arqoob (IRE)"
+        "off_time": "1:50",
+        "race_name": "Native Trail Zetland Stakes (Group 3)",
+        "winner": "Drumbeat (IRE)"
       },
       {
-        "course": "Ascot",
+        "course": "York",
         "leg": 3,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 3,
+            "finish_position": 16,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "3",
-            "selection": "Tenability",
-            "top3_hit": true,
+            "result_code": "16",
+            "selection": "Water To Wine",
+            "top3_hit": false,
             "winner_hit": false,
-            "winner_probability": 0.17955
+            "winner_probability": 0.16335
           },
           "transparent_baseline": {
-            "finish_position": 3,
+            "finish_position": 16,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "3",
-            "selection": "Tenability",
-            "top3_hit": true,
+            "result_code": "16",
+            "selection": "Water To Wine",
+            "top3_hit": false,
             "winner_hit": false,
-            "winner_probability": 0.22006300521659222
+            "winner_probability": 0.07173257034643768
           }
         },
-        "off_time": "2:25",
-        "race_name": "Betmgm Cumberland Lodge Stakes (Group 3)",
-        "winner": "Al Aasy (IRE)"
+        "off_time": "2:05",
+        "race_name": "Sky Bet For The Fans Handicap Stakes (gbbplus Race)",
+        "winner": "Grey Cuban (GB)"
       },
       {
-        "course": "Ascot",
+        "course": "Newmarket",
         "leg": 4,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 4,
+            "finish_position": 1,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "4",
-            "selection": "Division",
-            "top3_hit": false,
-            "winner_hit": false,
-            "winner_probability": 0.02
+            "result_code": "1",
+            "selection": "Rock Montreal",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.6924
           },
           "transparent_baseline": {
-            "finish_position": 4,
+            "finish_position": 1,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "4",
-            "selection": "Division",
-            "top3_hit": false,
-            "winner_hit": false,
-            "winner_probability": 0.09212513000672516
+            "result_code": "1",
+            "selection": "Rock Montreal",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.23764615761544136
           }
         },
-        "off_time": "3:00",
-        "race_name": "John Guest Racing Bengough Stakes (Group 3)",
-        "winner": "Hidden Force (GB)"
+        "off_time": "2:25",
+        "race_name": "Emirates Autumn Stakes (Group 3)",
+        "winner": "Rock Montreal (IRE)"
       },
       {
-        "course": "Redcar",
+        "course": "Newmarket",
         "leg": 5,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 1,
+            "finish_position": 2,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "1",
-            "selection": "Satellite of Love",
+            "result_code": "2",
+            "selection": "Desert Castle",
             "top3_hit": true,
-            "winner_hit": true,
-            "winner_probability": 0.6358
+            "winner_hit": false,
+            "winner_probability": 0.0899
           },
           "transparent_baseline": {
-            "finish_position": 1,
+            "finish_position": 2,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "1",
-            "selection": "Satellite of Love",
+            "result_code": "2",
+            "selection": "Desert Castle",
             "top3_hit": true,
-            "winner_hit": true,
-            "winner_probability": 0.17944596066567722
+            "winner_hit": false,
+            "winner_probability": 0.19668584633902583
           }
         },
-        "off_time": "3:20",
-        "race_name": "William Hill Two Year Old Trophy (Listed Race)",
-        "winner": "Satellite Of Love (IRE)"
+        "off_time": "3:00",
+        "race_name": "Darley Dewhurst Stakes (Group 1)",
+        "winner": "Darkness Falls (IRE)"
       },
       {
-        "course": "Ascot",
+        "course": "York",
         "leg": 6,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 9,
+            "finish_position": 1,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "9",
-            "selection": "Thunder Call",
-            "top3_hit": false,
-            "winner_hit": false,
-            "winner_probability": 0.02715
+            "result_code": "1",
+            "selection": "Coul Angel",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.22085
           },
           "transparent_baseline": {
-            "finish_position": 9,
+            "finish_position": 1,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "9",
-            "selection": "Thunder Call",
-            "top3_hit": false,
-            "winner_hit": false,
-            "winner_probability": 0.05291040642206463
+            "result_code": "1",
+            "selection": "Coul Angel",
+            "top3_hit": true,
+            "winner_hit": true,
+            "winner_probability": 0.07595314230677969
           }
         },
-        "off_time": "3:35",
-        "race_name": "Betmgm Challenge Cup (Class 2 Heritage Handicap)",
-        "winner": "Mezcala (GB)"
+        "off_time": "3:17",
+        "race_name": "Sky Bet Sprint Trophy Handicap Stakes (Heritage Handicap)",
+        "winner": "Coul Angel (IRE)"
       },
       {
-        "course": "Redcar",
+        "course": "Newmarket",
         "leg": 7,
         "models": {
           "frozen_scc": null,
           "quant_shadow": {
-            "finish_position": 2,
+            "finish_position": 24,
             "label": "Quant Shadow",
             "non_finish": false,
-            "result_code": "2",
-            "selection": "Witness Stand",
-            "top3_hit": true,
+            "result_code": "24",
+            "selection": "Tactician",
+            "top3_hit": false,
             "winner_hit": false,
-            "winner_probability": 0.2922
+            "winner_probability": 0.00315
           },
           "transparent_baseline": {
-            "finish_position": 2,
+            "finish_position": 24,
             "label": "Transparent baseline",
             "non_finish": false,
-            "result_code": "2",
-            "selection": "Witness Stand",
-            "top3_hit": true,
+            "result_code": "24",
+            "selection": "Tactician",
+            "top3_hit": false,
             "winner_hit": false,
-            "winner_probability": 0.15183871805754845
+            "winner_probability": 0.024582531502969115
           }
         },
-        "off_time": "3:55",
-        "race_name": "John Smith's Ebf Stallions Guisborough Stakes (Listed Race)",
-        "winner": "Sondad (GB)"
+        "off_time": "3:40",
+        "race_name": "Club Godolphin Cesarewitch Handicap Stakes (Heritage Handicap) (GBBPlus Race)",
+        "winner": "Alphonse Le Grande (IRE)"
       }
     ],
     "source": {
       "endpoint": "/v1/results/today/free",
-      "payload_sha256": "f09e86c30f605cd66634f35bb3c07b23a5ead0e3ccb1107138d4c8af955aa151",
+      "payload_sha256": "41d770fb53c8cceb54fc70508ad2a2f41dd818aab95028980b13fc930eb4eaa0",
       "provider": "The Racing API",
-      "retrieved_at_utc": "2026-10-03T22:25:38.957836+00:00"
+      "retrieved_at_utc": "2026-10-10T19:15:07.580130+00:00"
     }
   },
   "ledger": {
-    "cards_evaluated": 3,
-    "cards_with_evaluation": 3,
-    "complete_cards": 2,
+    "cards_evaluated": 4,
+    "cards_with_evaluation": 4,
+    "complete_cards": 3,
     "diagnostic_checkpoints": [
       {
         "cards": 5,
@@ -346,9 +346,9 @@
       }
     ],
     "first_card": "2026-08-22",
-    "fully_reconciled_cards": 2,
-    "latest_card": "2026-10-03",
-    "race_legs_evaluated": 18,
+    "fully_reconciled_cards": 3,
+    "latest_card": "2026-10-10",
+    "race_legs_evaluated": 25,
     "retuning_threshold_cards": 50,
     "retuning_threshold_legs": 350
   },
@@ -367,27 +367,27 @@
     },
     "quant_shadow": {
       "label": "Quant Shadow",
-      "legs_scored": 17,
-      "mean_brier_score": 0.895907,
-      "mean_finish_position": 6.125,
-      "mean_log_loss": 2.501289,
+      "legs_scored": 24,
+      "mean_brier_score": 0.884697,
+      "mean_finish_position": 6.391,
+      "mean_log_loss": 2.42213,
       "non_finishes": 1,
-      "top3_finishes": 8,
-      "top3_rate": 0.47058823529411764,
-      "win_rate": 0.23529411764705882,
-      "wins": 4
+      "top3_finishes": 13,
+      "top3_rate": 0.5416666666666666,
+      "win_rate": 0.25,
+      "wins": 6
     },
     "transparent_baseline": {
       "label": "Transparent baseline",
-      "legs_scored": 17,
-      "mean_brier_score": 0.87182,
-      "mean_finish_position": 5.438,
-      "mean_log_loss": 2.266092,
+      "legs_scored": 24,
+      "mean_brier_score": 0.868853,
+      "mean_finish_position": 5.913,
+      "mean_log_loss": 2.268539,
       "non_finishes": 1,
-      "top3_finishes": 8,
-      "top3_rate": 0.47058823529411764,
-      "win_rate": 0.23529411764705882,
-      "wins": 4
+      "top3_finishes": 13,
+      "top3_rate": 0.5416666666666666,
+      "win_rate": 0.25,
+      "wins": 6
     }
   },
   "principles": [
@@ -401,11 +401,43 @@
     "discipline": "Prospective prediction research",
     "latest_frozen_prediction": "2026-10-10",
     "latest_racecard_snapshot": "2026-10-10",
-    "latest_results_snapshot": "2026-10-09",
+    "latest_results_snapshot": "2026-10-10",
     "name": "SCC PREDICTIONS",
     "status": "RESEARCH / FORWARD VALIDATION"
   },
   "recent_cards": [
+    {
+      "complete": true,
+      "completed_results": 7,
+      "date": "2026-10-10",
+      "itv7_legs": 7,
+      "models": {
+        "frozen_scc": {
+          "label": "SCC Core",
+          "legs_scored": 0,
+          "mean_brier_score": null,
+          "mean_log_loss": null,
+          "top3_finishes": 0,
+          "wins": 0
+        },
+        "quant_shadow": {
+          "label": "Quant Shadow",
+          "legs_scored": 7,
+          "mean_brier_score": 0.857473,
+          "mean_log_loss": 2.229888,
+          "top3_finishes": 5,
+          "wins": 2
+        },
+        "transparent_baseline": {
+          "label": "Transparent baseline",
+          "legs_scored": 7,
+          "mean_brier_score": 0.861646,
+          "mean_log_loss": 2.274481,
+          "top3_finishes": 5,
+          "wins": 2
+        }
+      }
+    },
     {
       "complete": true,
       "completed_results": 7,

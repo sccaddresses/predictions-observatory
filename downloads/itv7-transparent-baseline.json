@@ -1,89 +1,89 @@
 {
   "competition": "ITV7",
-  "date": "2026-10-03",
-  "first_off_utc": "2026-10-03T12:50:00+00:00",
-  "generated_at_utc": "2026-10-03T12:32:58.248898+00:00",
+  "date": "2026-10-10",
+  "first_off_utc": "2026-10-10T12:30:00+00:00",
+  "generated_at_utc": "2026-10-10T11:33:22.689005+00:00",
   "integrity": {
     "prospective_freeze": true,
     "rule": "Do not rewrite after the first ITV7 leg begins; later analysis belongs in post-race evaluation."
   },
   "legs": [
     {
-      "course": "Ascot",
-      "horse_id": "hrs_54811414",
+      "course": "York",
+      "horse_id": "hrs_64225518",
       "leg": 1,
       "market_reference_odds": null,
-      "model_probability": 0.1365777571792436,
-      "off": "13:50",
-      "race": "Betmgm Rous Stakes (Listed Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 13.66%. Among the strongest official ratings; younger profile with scope to progress; race-fit recency window.",
-      "selection": "Lifeplan"
+      "model_probability": 0.13509024422711824,
+      "off": "13:30",
+      "race": "Sky Bet Rockingham Stakes (Listed Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 13.51%. Among the strongest official ratings; race-fit recency window.",
+      "selection": "Agamemnon"
     },
     {
       "course": "Newmarket",
-      "horse_id": "hrs_54337283",
+      "horse_id": "hrs_66432212",
       "leg": 2,
       "market_reference_odds": null,
-      "model_probability": 0.20083471686194504,
-      "off": "14:10",
-      "race": "Hkjc World Pool Handicap Stakes (gbbplus Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 20.08%. Among the strongest official ratings; younger profile with scope to progress; race-fit recency window.",
-      "selection": "Evanesco"
+      "model_probability": 0.20082443946826098,
+      "off": "13:50",
+      "race": "Native Trail Zetland Stakes (Group 3)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 20.08%. Among the strongest official ratings; recent placed form; race-fit recency window.",
+      "selection": "Apulia Bay"
     },
     {
-      "course": "Ascot",
-      "horse_id": "hrs_52931130",
+      "course": "York",
+      "horse_id": "hrs_63551250",
       "leg": 3,
       "market_reference_odds": null,
-      "model_probability": 0.29050266167775707,
-      "off": "14:25",
-      "race": "Betmgm Cumberland Lodge Stakes (Group 3)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 29.05%. Among the strongest official ratings; won latest recorded run; younger profile with scope to progress.",
-      "selection": "Tenability"
+      "model_probability": 0.0793075092215253,
+      "off": "14:05",
+      "race": "Sky Bet For The Fans Handicap Stakes (gbbplus Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 7.93%. recent placed form; younger profile with scope to progress.",
+      "selection": "Water To Wine"
     },
     {
-      "course": "Ascot",
-      "horse_id": "hrs_55882386",
+      "course": "Newmarket",
+      "horse_id": "hrs_17389879241",
       "leg": 4,
       "market_reference_odds": null,
-      "model_probability": 0.1533416288592294,
-      "off": "15:00",
-      "race": "John Guest Racing Bengough Stakes (Group 3)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 15.33%. Among the strongest official ratings; recent placed form; younger profile with scope to progress.",
-      "selection": "Division"
+      "model_probability": 0.23764615761544136,
+      "off": "14:25",
+      "race": "Emirates Autumn Stakes (Group 3)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 23.76%. Among the strongest official ratings; recent placed form; race-fit recency window.",
+      "selection": "Rock Montreal"
     },
     {
-      "course": "Redcar",
-      "horse_id": "hrs_63810894",
+      "course": "Newmarket",
+      "horse_id": "hrs_66305064",
       "leg": 5,
       "market_reference_odds": null,
-      "model_probability": 0.17944596066567722,
-      "off": "15:20",
-      "race": "William Hill Two Year Old Trophy (Listed Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 17.94%. Among the strongest official ratings; recent placed form; race-fit recency window.",
-      "selection": "Satellite of Love"
+      "model_probability": 0.3373447120288479,
+      "off": "15:00",
+      "race": "Darley Dewhurst Stakes (Group 1)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 33.73%. Among the strongest official ratings; won latest recorded run; race-fit recency window.",
+      "selection": "Desert Castle"
     },
     {
-      "course": "Ascot",
-      "horse_id": "hrs_57406937",
+      "course": "York",
+      "horse_id": "hrs_42944041",
       "leg": 6,
       "market_reference_odds": null,
-      "model_probability": 0.08869283815184892,
-      "off": "15:35",
-      "race": "Betmgm Challenge Cup (Class 2 Heritage Handicap)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 8.87%. won latest recorded run; younger profile with scope to progress; race-fit recency window.",
-      "selection": "Thunder Call"
+      "model_probability": 0.07595314230677969,
+      "off": "15:17",
+      "race": "Sky Bet Sprint Trophy Handicap Stakes (Heritage Handicap)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 7.6%. Among the strongest official ratings; won latest recorded run; younger profile with scope to progress.",
+      "selection": "Coul Angel"
     },
     {
-      "course": "Redcar",
-      "horse_id": "hrs_35149667",
+      "course": "Newmarket",
+      "horse_id": "hrs_41305124",
       "leg": 7,
       "market_reference_odds": null,
-      "model_probability": 0.15217749405553355,
-      "off": "15:55",
-      "race": "John Smith's Ebf Stallions Guisborough Stakes (Listed Race)",
-      "rationale": "Transparent baseline rank 1; provisional evidence share 15.22%. Among the strongest official ratings; race-fit recency window.",
-      "selection": "Witness Stand"
+      "model_probability": 0.05098236632930199,
+      "off": "15:40",
+      "race": "Club Godolphin Cesarewitch Handicap Stakes (Heritage Handicap) (GBBPlus Race)",
+      "rationale": "Transparent baseline rank 1; provisional evidence share 5.1%. Among the strongest official ratings; recent placed form; race-fit recency window.",
+      "selection": "Tactician"
     }
   ],
   "method": {
@@ -92,15 +92,15 @@
     "note": "Deterministic structured-data baseline using official rating, recent form, weight, recency, age/progression and a bounded Chester draw prior. It is a research baseline, not a validated betting model."
   },
   "model_status": "PROVISIONAL_TRANSPARENT_HEURISTIC",
-  "prediction_id": "itv7-2026-10-03-transparent-baseline-v1",
+  "prediction_id": "itv7-2026-10-10-transparent-baseline-v1",
   "prospective_freeze": true,
   "schema_version": "1.0",
   "source_snapshot": {
     "endpoint": "/v1/racecards/free",
-    "itv7_manifest": "data/racing_api/2026-10-03/itv7/manifest.json",
-    "payload_sha256": "414c7213e108f557276b486d48df93880a1bf86580f0b2e8d41afd754c9a2c59",
+    "itv7_manifest": "data/racing_api/2026-10-10/itv7/manifest.json",
+    "payload_sha256": "5f02f1e71f9884432c1085cf9fee692598401a8670029bfe8892f62327f1cd9e",
     "provider": "The Racing API",
-    "retrieved_at_utc": "2026-10-03T12:32:55.083682+00:00"
+    "retrieved_at_utc": "2026-10-10T11:33:21.730738+00:00"
   },
   "status": "FROZEN_PRE_RACE"
 }

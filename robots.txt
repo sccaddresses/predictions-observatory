@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sccaddresses.github.io/predictions-observatory/sitemap.xml
+Sitemap: https://sccnexus.co.uk/predictions/sitemap.xml

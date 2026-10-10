@@ -21,7 +21,7 @@
       "multiclass_brier_score"
     ]
   },
-  "generated_at_utc": "2026-10-10T20:34:08.831927+00:00",
+  "generated_at_utc": "2026-10-10T22:58:24.088346+00:00",
   "legs": [
     {
       "baseline": {
@@ -337,7 +337,7 @@
     "endpoint": "/v1/results/today/free",
     "payload_sha256": "53cb63d141551fb0b1c28bf7b6251f6c15e651fd5bf82eb553dc563e47623447",
     "provider": "The Racing API",
-    "retrieved_at_utc": "2026-10-10T20:34:06.456034+00:00"
+    "retrieved_at_utc": "2026-10-10T22:58:21.431355+00:00"
   },
   "schema_version": "1.1"
 }

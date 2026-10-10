@@ -97,7 +97,7 @@
     "prospective_freeze": true,
     "state": "EVALUATED"
   },
-  "generated_at_utc": "2026-10-10T20:34:07.672892+00:00",
+  "generated_at_utc": "2026-10-10T20:34:23.200753+00:00",
   "latest_card": {
     "date": "2026-10-10",
     "races": [
@@ -314,9 +314,9 @@
     ],
     "source": {
       "endpoint": "/v1/results/today/free",
-      "payload_sha256": "41d770fb53c8cceb54fc70508ad2a2f41dd818aab95028980b13fc930eb4eaa0",
+      "payload_sha256": "53cb63d141551fb0b1c28bf7b6251f6c15e651fd5bf82eb553dc563e47623447",
       "provider": "The Racing API",
-      "retrieved_at_utc": "2026-10-10T19:15:07.580130+00:00"
+      "retrieved_at_utc": "2026-10-10T20:34:06.456034+00:00"
     }
   },
   "ledger": {

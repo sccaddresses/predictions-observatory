@@ -1,17 +1,17 @@
 {
   "current": {
     "abstentions": 30,
-    "completed_results": 0,
+    "completed_results": 7,
     "date": "2026-10-10",
-    "evaluation_complete": false,
+    "evaluation_complete": true,
     "first_off_utc": "2026-10-10T12:15:00+00:00",
     "generated_at_utc": "2026-10-10T00:20:20.451480+00:00",
-    "missing_winner_sp": 0,
-    "net_units": null,
+    "missing_winner_sp": 2,
+    "net_units": -5.0,
     "official_selections": 7,
     "prospective_freeze": true,
     "races_reviewed": 37,
-    "roi": null,
+    "roi": -1.0,
     "selections": [
       {
         "course": "Hexham",
@@ -84,30 +84,30 @@
         "shadow_selection": "Iron Stone Lad"
       }
     ],
-    "settled_selections": 0,
+    "settled_selections": 7,
     "status": "FROZEN_PRE_RACE",
-    "units_staked_with_known_return": 0,
-    "wins": 0
+    "units_staked_with_known_return": 5,
+    "wins": 2
   },
-  "generated_at_utc": "2026-10-10T19:15:28.893584+00:00",
+  "generated_at_utc": "2026-10-10T20:34:07.752147+00:00",
   "history": [
     {
       "abstentions": 30,
-      "completed_results": 0,
+      "completed_results": 7,
       "date": "2026-10-10",
-      "evaluation_complete": false,
+      "evaluation_complete": true,
       "first_off_utc": "2026-10-10T12:15:00+00:00",
       "generated_at_utc": "2026-10-10T00:20:20.451480+00:00",
-      "missing_winner_sp": 0,
-      "net_units": null,
+      "missing_winner_sp": 2,
+      "net_units": -5.0,
       "official_selections": 7,
       "prospective_freeze": true,
       "races_reviewed": 37,
-      "roi": null,
-      "settled_selections": 0,
+      "roi": -1.0,
+      "settled_selections": 7,
       "status": "FROZEN_PRE_RACE",
-      "units_staked_with_known_return": 0,
-      "wins": 0
+      "units_staked_with_known_return": 5,
+      "wins": 2
     },
     {
       "abstentions": 28,
@@ -588,16 +588,16 @@
     {
       "days_recorded": 10,
       "late_or_invalid_days": 0,
-      "missing_winner_sp": 4,
-      "net_units": -3.0,
+      "missing_winner_sp": 6,
+      "net_units": -8.0,
       "official_selections": 56,
       "period": "2026-10",
       "prospectively_frozen_days": 10,
       "roi": -1.0,
-      "settled_selections": 7,
-      "strike_rate": 0.571429,
-      "units_staked_with_known_return": 3,
-      "wins": 4
+      "settled_selections": 14,
+      "strike_rate": 0.428571,
+      "units_staked_with_known_return": 8,
+      "wins": 6
     },
     {
       "days_recorded": 17,
@@ -620,16 +620,16 @@
     {
       "days_recorded": 6,
       "late_or_invalid_days": 0,
-      "missing_winner_sp": 4,
-      "net_units": -3.0,
+      "missing_winner_sp": 6,
+      "net_units": -8.0,
       "official_selections": 33,
       "period": "2026-W41",
       "prospectively_frozen_days": 6,
       "roi": -1.0,
-      "settled_selections": 7,
-      "strike_rate": 0.571429,
-      "units_staked_with_known_return": 3,
-      "wins": 4
+      "settled_selections": 14,
+      "strike_rate": 0.428571,
+      "units_staked_with_known_return": 8,
+      "wins": 6
     },
     {
       "days_recorded": 7,
